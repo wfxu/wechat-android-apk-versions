@@ -1,6 +1,8 @@
-# 微信 8.0.2 安卓版 APK 下载（WeChat 8.0.2 for Android）
+# 微信 8.0.2 安卓版 APK 下载 | WeChat 8.0.2 APK Download for Android
 
 > 微信（WeChat）Android 8.0.2 于 2021-03-25 发布，本页收录该版本 1 个腾讯官方下载地址，内部版本号（versionCode）为 1860，安装包架构为 通用包（未区分 CPU 架构），距上一个版本 8.0.1 相隔 48 天。
+
+> WeChat (Weixin) for Android 8.0.2 was released on 2021-03-25, this page lists 1 official Tencent download link, versionCode 1860, built for universal (no ABI split), shipped 48 days after WeChat 8.0.1.
 
 ## 微信 8.0.2 下载地址
 
@@ -53,4 +55,55 @@
 
 ---
 
-[← 返回全部 133 个微信安卓历史版本](../)　|　[在线浏览本页](https://wfxu.github.io/wechat-android-apk-versions/8.0.2/)
+## Download WeChat 8.0.2 APK
+
+| # | ABI | versionCode | Build | APK file name | Download |
+| :-- | :-- | :-- | :-- | :-- | :-- |
+| 1 | universal | 1860 | - | `weixin802android1860.apk` | [Download APK](https://dldir1.qq.com/weixin/android/weixin802android1860.apk) |
+
+All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`). Nothing is re-hosted, repacked or modified here.
+
+## WeChat 8.0.2 version information
+
+| Field | Value |
+| :-- | :-- |
+| Application | WeChat (Weixin) |
+| Version | **8.0.2** |
+| Platform | Android |
+| Release date | 2021-03-25 |
+| versionCode | 1860 |
+| Package name | `com.tencent.mm` |
+| ABI | universal (no ABI split) |
+| Official downloads | 1 |
+| Position in history | #63 of 133 archived versions |
+| Days since previous release | 48 |
+
+## Nearby versions
+
+- Newer: [Download WeChat 8.0.3 APK](../8.0.3/) (2021-04-22)
+- Older: [Download WeChat 8.0.1 APK](../8.0.1/) (2021-02-05)
+
+## About WeChat 8.0.2
+
+WeChat 8.0.2 is the Android client Tencent released on 2021-03-25. It is #63 of the 133 versions archived here.
+It arrived 48 days after WeChat 8.0.1 (2021-02-05).
+People usually look for this specific old version to support older devices, to roll back a change introduced in a newer release, or for compatibility testing. For the feature changelog, refer to [Tencent's official release notes](https://weixin.qq.com/updates).
+
+## How to install WeChat 8.0.2 APK
+
+1. Download `weixin802android1860.apk` from the table above.
+2. Allow installation from unknown sources in Android settings.
+3. If a newer WeChat build is already installed, uninstall it first — Android does not allow downgrading over an existing install.
+4. Uninstalling clears local chat history. Back it up inside WeChat before downgrading to 8.0.2.
+
+## FAQ
+
+**When was WeChat 8.0.2 released?** 2021-03-25.
+
+**Is this WeChat 8.0.2 APK official?** Yes. Every link above resolves to Tencent's own CDN and the APK is unmodified.
+
+**Can I downgrade from a newer WeChat to 8.0.2?** Yes, but you must uninstall the current version first, and any local chat history that was not backed up will be lost.
+
+---
+
+[← 返回全部 133 个版本 / All 133 WeChat Android versions](../)　|　[在线浏览 / View online](https://wfxu.github.io/wechat-android-apk-versions/8.0.2/)

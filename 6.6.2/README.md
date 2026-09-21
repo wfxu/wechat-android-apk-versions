@@ -1,6 +1,8 @@
-# 微信 6.6.2 安卓版 APK 下载（WeChat 6.6.2 for Android）
+# 微信 6.6.2 安卓版 APK 下载 | WeChat 6.6.2 APK Download for Android
 
 > 微信（WeChat）Android 6.6.2 于 2018-02-01 发布，本页收录该版本 1 个腾讯官方下载地址，内部版本号（versionCode）为 1240，安装包架构为 通用包（未区分 CPU 架构），距上一个版本 6.6.1 相隔 34 天。
+
+> WeChat (Weixin) for Android 6.6.2 was released on 2018-02-01, this page lists 1 official Tencent download link, versionCode 1240, built for universal (no ABI split), shipped 34 days after WeChat 6.6.1.
 
 ## 微信 6.6.2 下载地址
 
@@ -53,4 +55,55 @@
 
 ---
 
-[← 返回全部 133 个微信安卓历史版本](../)　|　[在线浏览本页](https://wfxu.github.io/wechat-android-apk-versions/6.6.2/)
+## Download WeChat 6.6.2 APK
+
+| # | ABI | versionCode | Build | APK file name | Download |
+| :-- | :-- | :-- | :-- | :-- | :-- |
+| 1 | universal | 1240 | - | `weixin662android1240.apk` | [Download APK](https://dldir1.qq.com/weixin/android/weixin662android1240.apk) |
+
+All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`). Nothing is re-hosted, repacked or modified here.
+
+## WeChat 6.6.2 version information
+
+| Field | Value |
+| :-- | :-- |
+| Application | WeChat (Weixin) |
+| Version | **6.6.2** |
+| Platform | Android |
+| Release date | 2018-02-01 |
+| versionCode | 1240 |
+| Package name | `com.tencent.mm` |
+| ABI | universal (no ABI split) |
+| Official downloads | 1 |
+| Position in history | #93 of 133 archived versions |
+| Days since previous release | 34 |
+
+## Nearby versions
+
+- Newer: [Download WeChat 6.6.3 APK](../6.6.3/) (2018-02-09)
+- Older: [Download WeChat 6.6.1 APK](../6.6.1/) (2017-12-29)
+
+## About WeChat 6.6.2
+
+WeChat 6.6.2 is the Android client Tencent released on 2018-02-01. It is #93 of the 133 versions archived here.
+It arrived 34 days after WeChat 6.6.1 (2017-12-29).
+People usually look for this specific old version to support older devices, to roll back a change introduced in a newer release, or for compatibility testing. For the feature changelog, refer to [Tencent's official release notes](https://weixin.qq.com/updates).
+
+## How to install WeChat 6.6.2 APK
+
+1. Download `weixin662android1240.apk` from the table above.
+2. Allow installation from unknown sources in Android settings.
+3. If a newer WeChat build is already installed, uninstall it first — Android does not allow downgrading over an existing install.
+4. Uninstalling clears local chat history. Back it up inside WeChat before downgrading to 6.6.2.
+
+## FAQ
+
+**When was WeChat 6.6.2 released?** 2018-02-01.
+
+**Is this WeChat 6.6.2 APK official?** Yes. Every link above resolves to Tencent's own CDN and the APK is unmodified.
+
+**Can I downgrade from a newer WeChat to 6.6.2?** Yes, but you must uninstall the current version first, and any local chat history that was not backed up will be lost.
+
+---
+
+[← 返回全部 133 个版本 / All 133 WeChat Android versions](../)　|　[在线浏览 / View online](https://wfxu.github.io/wechat-android-apk-versions/6.6.2/)

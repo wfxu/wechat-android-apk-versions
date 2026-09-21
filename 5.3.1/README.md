@@ -1,6 +1,8 @@
-# 微信 5.3.1 安卓版 APK 下载（WeChat 5.3.1 for Android）
+# 微信 5.3.1 安卓版 APK 下载 | WeChat 5.3.1 APK Download for Android
 
 > 微信（WeChat）Android 5.3.1 于 2014-06-27 发布，本页收录该版本 1 个腾讯官方下载地址，内部版本号（versionCode）为 460，安装包架构为 通用包（未区分 CPU 架构）。
+
+> WeChat (Weixin) for Android 5.3.1 was released on 2014-06-27, this page lists 1 official Tencent download link, versionCode 460, built for universal (no ABI split).
 
 ## 微信 5.3.1 下载地址
 
@@ -51,4 +53,53 @@
 
 ---
 
-[← 返回全部 133 个微信安卓历史版本](../)　|　[在线浏览本页](https://wfxu.github.io/wechat-android-apk-versions/5.3.1/)
+## Download WeChat 5.3.1 APK
+
+| # | ABI | versionCode | Build | APK file name | Download |
+| :-- | :-- | :-- | :-- | :-- | :-- |
+| 1 | universal | 460 | - | `weixin531android460.apk` | [Download APK](https://dldir1.qq.com/weixin/android/weixin531android460.apk) |
+
+All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`). Nothing is re-hosted, repacked or modified here.
+
+## WeChat 5.3.1 version information
+
+| Field | Value |
+| :-- | :-- |
+| Application | WeChat (Weixin) |
+| Version | **5.3.1** |
+| Platform | Android |
+| Release date | 2014-06-27 |
+| versionCode | 460 |
+| Package name | `com.tencent.mm` |
+| ABI | universal (no ABI split) |
+| Official downloads | 1 |
+| Position in history | #133 of 133 archived versions |
+
+## Nearby versions
+
+- Newer: [Download WeChat 5.4 APK](../5.4/) (2014-08-28)
+- Older: none — WeChat 5.3.1 is the oldest archived Android version.
+
+## About WeChat 5.3.1
+
+WeChat 5.3.1 is the Android client Tencent released on 2014-06-27. It is #133 of the 133 versions archived here.
+People usually look for this specific old version to support older devices, to roll back a change introduced in a newer release, or for compatibility testing. For the feature changelog, refer to [Tencent's official release notes](https://weixin.qq.com/updates).
+
+## How to install WeChat 5.3.1 APK
+
+1. Download `weixin531android460.apk` from the table above.
+2. Allow installation from unknown sources in Android settings.
+3. If a newer WeChat build is already installed, uninstall it first — Android does not allow downgrading over an existing install.
+4. Uninstalling clears local chat history. Back it up inside WeChat before downgrading to 5.3.1.
+
+## FAQ
+
+**When was WeChat 5.3.1 released?** 2014-06-27.
+
+**Is this WeChat 5.3.1 APK official?** Yes. Every link above resolves to Tencent's own CDN and the APK is unmodified.
+
+**Can I downgrade from a newer WeChat to 5.3.1?** Yes, but you must uninstall the current version first, and any local chat history that was not backed up will be lost.
+
+---
+
+[← 返回全部 133 个版本 / All 133 WeChat Android versions](../)　|　[在线浏览 / View online](https://wfxu.github.io/wechat-android-apk-versions/5.3.1/)

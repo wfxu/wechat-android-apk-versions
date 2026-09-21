@@ -1,6 +1,8 @@
-# 微信 8.0.50 安卓版 APK 下载（WeChat 8.0.50 for Android）
+# 微信 8.0.50 安卓版 APK 下载 | WeChat 8.0.50 APK Download for Android
 
 > 微信（WeChat）Android 8.0.50 于 2024-07-02 发布，本页收录该版本 5 个腾讯官方下载地址，内部版本号（versionCode）为 2620、2700、2701，安装包架构为 arm64（64 位 ARM），距上一个版本 8.0.49 相隔 71 天。
+
+> WeChat (Weixin) for Android 8.0.50 was released on 2024-07-02, this page lists 5 official Tencent download links, versionCode 2620, 2700, 2701, built for arm64 (64-bit ARM), shipped 71 days after WeChat 8.0.49.
 
 ## 微信 8.0.50 下载地址
 
@@ -57,4 +59,59 @@
 
 ---
 
-[← 返回全部 133 个微信安卓历史版本](../)　|　[在线浏览本页](https://wfxu.github.io/wechat-android-apk-versions/8.0.50/)
+## Download WeChat 8.0.50 APK
+
+| # | ABI | versionCode | Build | APK file name | Download |
+| :-- | :-- | :-- | :-- | :-- | :-- |
+| 1 | arm64 | 2701 | 0x28003294 | `weixin8050android2701_0x28003294_arm64.apk` | [Download APK](https://dldir1.qq.com/weixin/android/weixin8050android2701_0x28003294_arm64.apk) |
+| 2 | arm64 | 2701 | 0x2800323e | `weixin8050android2701_0x2800323e_arm64.apk` | [Download APK](https://dldir1.qq.com/weixin/android/weixin8050android2701_0x2800323e_arm64.apk) |
+| 3 | arm64 | 2701 | 0x2800323c | `weixin8050android2701_0x2800323c_arm64.apk` | [Download APK](https://dldir1.qq.com/weixin/android/weixin8050android2701_0x2800323c_arm64.apk) |
+| 4 | arm64 | 2700 | 0x2800323c | `weixin8050android2700_0x2800323c_arm64.apk` | [Download APK](https://dldir1.qq.com/weixin/android/weixin8050android2700_0x2800323c_arm64.apk) |
+| 5 | arm64 | 2620 | 0x2800323c | `weixin8050android2620_0x2800323c_arm64.apk` | [Download APK](https://dldir1.qq.com/weixin/android/weixin8050android2620_0x2800323c_arm64.apk) |
+
+All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`). Nothing is re-hosted, repacked or modified here.
+
+## WeChat 8.0.50 version information
+
+| Field | Value |
+| :-- | :-- |
+| Application | WeChat (Weixin) |
+| Version | **8.0.50** |
+| Platform | Android |
+| Release date | 2024-07-02 |
+| versionCode | 2620、2700、2701 |
+| Package name | `com.tencent.mm` |
+| ABI | arm64 (64-bit ARM) |
+| Official downloads | 5 |
+| Position in history | #25 of 133 archived versions |
+| Days since previous release | 71 |
+
+## Nearby versions
+
+- Newer: [Download WeChat 8.0.51 APK](../8.0.51/) (2024-09-14)
+- Older: [Download WeChat 8.0.49 APK](../8.0.49/) (2024-04-22)
+
+## About WeChat 8.0.50
+
+WeChat 8.0.50 is the Android client Tencent released on 2024-07-02. It is #25 of the 133 versions archived here.
+It arrived 71 days after WeChat 8.0.49 (2024-04-22).
+People usually look for this specific old version to support older devices, to roll back a change introduced in a newer release, or for compatibility testing. For the feature changelog, refer to [Tencent's official release notes](https://weixin.qq.com/updates).
+
+## How to install WeChat 8.0.50 APK
+
+1. Download `weixin8050android2701_0x28003294_arm64.apk` from the table above.
+2. Allow installation from unknown sources in Android settings.
+3. If a newer WeChat build is already installed, uninstall it first — Android does not allow downgrading over an existing install.
+4. Uninstalling clears local chat history. Back it up inside WeChat before downgrading to 8.0.50.
+
+## FAQ
+
+**When was WeChat 8.0.50 released?** 2024-07-02.
+
+**Is this WeChat 8.0.50 APK official?** Yes. Every link above resolves to Tencent's own CDN and the APK is unmodified.
+
+**Can I downgrade from a newer WeChat to 8.0.50?** Yes, but you must uninstall the current version first, and any local chat history that was not backed up will be lost.
+
+---
+
+[← 返回全部 133 个版本 / All 133 WeChat Android versions](../)　|　[在线浏览 / View online](https://wfxu.github.io/wechat-android-apk-versions/8.0.50/)

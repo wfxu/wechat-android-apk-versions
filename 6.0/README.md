@@ -1,6 +1,8 @@
-# 微信 6.0 安卓版 APK 下载（WeChat 6.0 for Android）
+# 微信 6.0 安卓版 APK 下载 | WeChat 6.0 APK Download for Android
 
 > 微信（WeChat）Android 6.0 于 2014-10-24 发布，本页收录该版本 1 个腾讯官方下载地址，内部版本号（versionCode）为 501，安装包架构为 通用包（未区分 CPU 架构），距上一个版本 5.4 相隔 57 天。
+
+> WeChat (Weixin) for Android 6.0 was released on 2014-10-24, this page lists 1 official Tencent download link, versionCode 501, built for universal (no ABI split), shipped 57 days after WeChat 5.4.
 
 ## 微信 6.0 下载地址
 
@@ -53,4 +55,55 @@
 
 ---
 
-[← 返回全部 133 个微信安卓历史版本](../)　|　[在线浏览本页](https://wfxu.github.io/wechat-android-apk-versions/6.0/)
+## Download WeChat 6.0 APK
+
+| # | ABI | versionCode | Build | APK file name | Download |
+| :-- | :-- | :-- | :-- | :-- | :-- |
+| 1 | universal | 501 | - | `weixin600android501.apk` | [Download APK](https://dldir1.qq.com/weixin/android/weixin600android501.apk) |
+
+All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`). Nothing is re-hosted, repacked or modified here.
+
+## WeChat 6.0 version information
+
+| Field | Value |
+| :-- | :-- |
+| Application | WeChat (Weixin) |
+| Version | **6.0** |
+| Platform | Android |
+| Release date | 2014-10-24 |
+| versionCode | 501 |
+| Package name | `com.tencent.mm` |
+| ABI | universal (no ABI split) |
+| Official downloads | 1 |
+| Position in history | #131 of 133 archived versions |
+| Days since previous release | 57 |
+
+## Nearby versions
+
+- Newer: [Download WeChat 6.0.2 APK](../6.0.2/) (2014-12-24)
+- Older: [Download WeChat 5.4 APK](../5.4/) (2014-08-28)
+
+## About WeChat 6.0
+
+WeChat 6.0 is the Android client Tencent released on 2014-10-24. It is #131 of the 133 versions archived here.
+It arrived 57 days after WeChat 5.4 (2014-08-28).
+People usually look for this specific old version to support older devices, to roll back a change introduced in a newer release, or for compatibility testing. For the feature changelog, refer to [Tencent's official release notes](https://weixin.qq.com/updates).
+
+## How to install WeChat 6.0 APK
+
+1. Download `weixin600android501.apk` from the table above.
+2. Allow installation from unknown sources in Android settings.
+3. If a newer WeChat build is already installed, uninstall it first — Android does not allow downgrading over an existing install.
+4. Uninstalling clears local chat history. Back it up inside WeChat before downgrading to 6.0.
+
+## FAQ
+
+**When was WeChat 6.0 released?** 2014-10-24.
+
+**Is this WeChat 6.0 APK official?** Yes. Every link above resolves to Tencent's own CDN and the APK is unmodified.
+
+**Can I downgrade from a newer WeChat to 6.0?** Yes, but you must uninstall the current version first, and any local chat history that was not backed up will be lost.
+
+---
+
+[← 返回全部 133 个版本 / All 133 WeChat Android versions](../)　|　[在线浏览 / View online](https://wfxu.github.io/wechat-android-apk-versions/6.0/)

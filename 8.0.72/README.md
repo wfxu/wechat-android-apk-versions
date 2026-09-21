@@ -1,6 +1,8 @@
-# 微信 8.0.72 安卓版 APK 下载（WeChat 8.0.72 for Android）
+# 微信 8.0.72 安卓版 APK 下载 | WeChat 8.0.72 APK Download for Android
 
 > 微信（WeChat）Android 8.0.72 于 2026-05-15 发布，本页收录该版本 3 个腾讯官方下载地址，内部版本号（versionCode）为 3100，安装包架构为 arm64（64 位 ARM），距上一个版本 8.0.71 相隔 24 天。
+
+> WeChat (Weixin) for Android 8.0.72 was released on 2026-05-15, this page lists 3 official Tencent download links, versionCode 3100, built for arm64 (64-bit ARM), shipped 24 days after WeChat 8.0.71.
 
 ## 微信 8.0.72 下载地址
 
@@ -55,4 +57,57 @@
 
 ---
 
-[← 返回全部 133 个微信安卓历史版本](../)　|　[在线浏览本页](https://wfxu.github.io/wechat-android-apk-versions/8.0.72/)
+## Download WeChat 8.0.72 APK
+
+| # | ABI | versionCode | Build | APK file name | Download |
+| :-- | :-- | :-- | :-- | :-- | :-- |
+| 1 | arm64 | 3100 | 0x28004835 | `weixin8072android3100_0x28004835_arm64.apk` | [Download APK](https://dldir1v6.qq.com/weixin/android/weixin8072android3100_0x28004835_arm64.apk) |
+| 2 | arm64 | 3100 | 0x28004834 | `weixin8072android3100_0x28004834_arm64.apk` | [Download APK](https://dldir1v6.qq.com/weixin/android/weixin8072android3100_0x28004834_arm64.apk) |
+| 3 | arm64 | 3100 | 0x28004833 | `weixin8072android3100_0x28004833_arm64.apk` | [Download APK](https://dldir1v6.qq.com/weixin/android/weixin8072android3100_0x28004833_arm64.apk) |
+
+All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`). Nothing is re-hosted, repacked or modified here.
+
+## WeChat 8.0.72 version information
+
+| Field | Value |
+| :-- | :-- |
+| Application | WeChat (Weixin) |
+| Version | **8.0.72** |
+| Platform | Android |
+| Release date | 2026-05-15 |
+| versionCode | 3100 |
+| Package name | `com.tencent.mm` |
+| ABI | arm64 (64-bit ARM) |
+| Official downloads | 3 |
+| Position in history | #5 of 133 archived versions |
+| Days since previous release | 24 |
+
+## Nearby versions
+
+- Newer: [Download WeChat 8.0.74 APK](../8.0.74/) (2026-06-08)
+- Older: [Download WeChat 8.0.71 APK](../8.0.71/) (2026-04-21)
+
+## About WeChat 8.0.72
+
+WeChat 8.0.72 is the Android client Tencent released on 2026-05-15. It is #5 of the 133 versions archived here.
+It arrived 24 days after WeChat 8.0.71 (2026-04-21).
+People usually look for this specific old version to support older devices, to roll back a change introduced in a newer release, or for compatibility testing. For the feature changelog, refer to [Tencent's official release notes](https://weixin.qq.com/updates).
+
+## How to install WeChat 8.0.72 APK
+
+1. Download `weixin8072android3100_0x28004835_arm64.apk` from the table above.
+2. Allow installation from unknown sources in Android settings.
+3. If a newer WeChat build is already installed, uninstall it first — Android does not allow downgrading over an existing install.
+4. Uninstalling clears local chat history. Back it up inside WeChat before downgrading to 8.0.72.
+
+## FAQ
+
+**When was WeChat 8.0.72 released?** 2026-05-15.
+
+**Is this WeChat 8.0.72 APK official?** Yes. Every link above resolves to Tencent's own CDN and the APK is unmodified.
+
+**Can I downgrade from a newer WeChat to 8.0.72?** Yes, but you must uninstall the current version first, and any local chat history that was not backed up will be lost.
+
+---
+
+[← 返回全部 133 个版本 / All 133 WeChat Android versions](../)　|　[在线浏览 / View online](https://wfxu.github.io/wechat-android-apk-versions/8.0.72/)

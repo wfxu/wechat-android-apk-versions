@@ -4,7 +4,7 @@ body{margin:0;font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFan
 header.site{border-bottom:1px solid #d1d9e0;background:#f6f8fa}
 header.site .wrap{padding:14px 16px}
 header.site a{color:#0969da;text-decoration:none;font-weight:600}
-h1{font-size:1.75rem;line-height:1.3;margin:.6em 0 .3em}
+h1{font-size:1.7rem;line-height:1.35;margin:.6em 0 .3em}
 h2{font-size:1.25rem;margin:1.8em 0 .6em;padding-bottom:.3em;border-bottom:1px solid #d1d9e0}
 p,li{color:#1f2328}
 a{color:#0969da}
@@ -18,6 +18,9 @@ code{background:#eff1f3;padding:.15em .4em;border-radius:4px;font-size:.88em;wor
 nav.adj{display:flex;gap:12px;flex-wrap:wrap;margin:1.5em 0}
 nav.adj a{flex:1 1 240px;border:1px solid #d1d9e0;border-radius:6px;padding:10px 14px;text-decoration:none;background:#fff}
 nav.adj span{display:block;font-size:.78rem;color:#59636e}
+.langbar{display:flex;gap:10px;margin:1.2em 0 0}
+.langbar a{font-size:.85rem;border:1px solid #d1d9e0;border-radius:999px;padding:3px 12px;text-decoration:none;background:#f6f8fa}
+section.alt{margin-top:2.5em;padding-top:.5em;border-top:3px double #d1d9e0}
 footer{margin-top:3em;padding-top:1.2em;border-top:1px solid #d1d9e0;font-size:.85rem;color:#59636e}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;margin:1em 0}
 .grid a{border:1px solid #d1d9e0;border-radius:6px;padding:8px 10px;text-decoration:none;background:#fff}
@@ -29,8 +32,8 @@ header.site{background:#161b22;border-color:#30363d}
 h2{border-color:#30363d}
 p,li,td{color:#e6edf3}
 .lead{background:#161b22}
-th,td,nav.adj a,.grid a{border-color:#30363d}
-th{background:#161b22}
+th,td,nav.adj a,.grid a,section.alt,.langbar a{border-color:#30363d}
+th,.langbar a{background:#161b22}
 code{background:#161b22}
 nav.adj a,.grid a{background:#0d1117}
 footer{border-color:#30363d;color:#8d96a0}}

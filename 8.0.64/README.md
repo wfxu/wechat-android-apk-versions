@@ -1,6 +1,8 @@
-# 微信 8.0.64 安卓版 APK 下载（WeChat 8.0.64 for Android）
+# 微信 8.0.64 安卓版 APK 下载 | WeChat 8.0.64 APK Download for Android
 
 > 微信（WeChat）Android 8.0.64 于 2025-09-29 发布，本页收录该版本 1 个腾讯官方下载地址，内部版本号（versionCode）为 2940，安装包架构为 arm64（64 位 ARM），距上一个版本 8.0.63 相隔 20 天。
+
+> WeChat (Weixin) for Android 8.0.64 was released on 2025-09-29, this page lists 1 official Tencent download link, versionCode 2940, built for arm64 (64-bit ARM), shipped 20 days after WeChat 8.0.63.
 
 ## 微信 8.0.64 下载地址
 
@@ -53,4 +55,55 @@
 
 ---
 
-[← 返回全部 133 个微信安卓历史版本](../)　|　[在线浏览本页](https://wfxu.github.io/wechat-android-apk-versions/8.0.64/)
+## Download WeChat 8.0.64 APK
+
+| # | ABI | versionCode | Build | APK file name | Download |
+| :-- | :-- | :-- | :-- | :-- | :-- |
+| 1 | arm64 | 2940 | 0x28004033 | `weixin8064android2940_0x28004033_arm64_1.apk` | [Download APK](https://dldir1v6.qq.com/weixin/android/weixin8064android2940_0x28004033_arm64_1.apk) |
+
+All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`). Nothing is re-hosted, repacked or modified here.
+
+## WeChat 8.0.64 version information
+
+| Field | Value |
+| :-- | :-- |
+| Application | WeChat (Weixin) |
+| Version | **8.0.64** |
+| Platform | Android |
+| Release date | 2025-09-29 |
+| versionCode | 2940 |
+| Package name | `com.tencent.mm` |
+| ABI | arm64 (64-bit ARM) |
+| Official downloads | 1 |
+| Position in history | #13 of 133 archived versions |
+| Days since previous release | 20 |
+
+## Nearby versions
+
+- Newer: [Download WeChat 8.0.65 APK](../8.0.65/) (2025-11-07)
+- Older: [Download WeChat 8.0.63 APK](../8.0.63/) (2025-09-09)
+
+## About WeChat 8.0.64
+
+WeChat 8.0.64 is the Android client Tencent released on 2025-09-29. It is #13 of the 133 versions archived here.
+It arrived 20 days after WeChat 8.0.63 (2025-09-09).
+People usually look for this specific old version to support older devices, to roll back a change introduced in a newer release, or for compatibility testing. For the feature changelog, refer to [Tencent's official release notes](https://weixin.qq.com/updates).
+
+## How to install WeChat 8.0.64 APK
+
+1. Download `weixin8064android2940_0x28004033_arm64_1.apk` from the table above.
+2. Allow installation from unknown sources in Android settings.
+3. If a newer WeChat build is already installed, uninstall it first — Android does not allow downgrading over an existing install.
+4. Uninstalling clears local chat history. Back it up inside WeChat before downgrading to 8.0.64.
+
+## FAQ
+
+**When was WeChat 8.0.64 released?** 2025-09-29.
+
+**Is this WeChat 8.0.64 APK official?** Yes. Every link above resolves to Tencent's own CDN and the APK is unmodified.
+
+**Can I downgrade from a newer WeChat to 8.0.64?** Yes, but you must uninstall the current version first, and any local chat history that was not backed up will be lost.
+
+---
+
+[← 返回全部 133 个版本 / All 133 WeChat Android versions](../)　|　[在线浏览 / View online](https://wfxu.github.io/wechat-android-apk-versions/8.0.64/)
