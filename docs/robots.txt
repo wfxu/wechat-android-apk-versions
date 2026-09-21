@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wfxu.github.io/wechat-android-apk-versions/sitemap.xml

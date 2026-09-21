@@ -1,0 +1,71 @@
+name: 同步数据并重建版本页面
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'version.json'
+      - 'scripts/**'
+      - '.github/workflows/build.yml'
+  schedule:
+    # 每天 UTC 03:17 检查上游是否有新版本，有则自动生成新页面
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 从上游同步 version.json
+        run: python scripts/sync.py
+
+      - name: 生成版本目录与静态站点
+        run: python scripts/build.py
+
+      - name: 提交生成结果
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "内容无变化，跳过提交"
+          else
+            git commit -m "chore: 重新生成版本页面 ($(date -u +%Y-%m-%d))"
+            git push
+          fi
+
+      - name: 配置 GitHub Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: 上传站点产物
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
