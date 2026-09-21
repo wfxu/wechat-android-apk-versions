@@ -1,14 +1,18 @@
 # 微信 6.2.4 安卓版 APK 下载 | WeChat 6.2.4 APK Download for Android
 
-> 微信（WeChat）Android 6.2.4 于 2015-07-29 发布，本页收录该版本 1 个腾讯官方下载地址，内部版本号（versionCode）为 600，安装包架构为 通用包（未区分 CPU 架构），距上一个版本 6.2.2 相隔 33 天。
+> ⚠️ **注意**：腾讯替换过这个链接的内容。文件名标注为微信 6.2.4，但安装包内部记录的版本是 **6.2.5**，下载到的实际是后者。本页保留原始标注以便检索。
 
-> WeChat (Weixin) for Android 6.2.4 was released on 2015-07-29, this page lists 1 official Tencent download link, versionCode 600, built for universal (no ABI split), shipped 33 days after WeChat 6.2.2.
+> ⚠️ **Note**: Tencent replaced the contents of this link. The file name says WeChat 6.2.4, but the APK itself reports version **6.2.5** — that is what you actually download.
+
+> 微信（WeChat）Android 6.2.4 于 2015-07-29 发布，本页收录该版本 1 个腾讯官方下载地址，安装包大小 30.8 MB，需要 Android 4.0.3 及以上（API 15），内部版本号（versionCode）为 620，安装包架构为 通用包（未区分 CPU 架构），距上一个版本 6.2.2 相隔 33 天。
+
+> WeChat (Weixin) for Android 6.2.4 was released on 2015-07-29, this page lists 1 official Tencent download link, APK size 30.8 MB, requires Android 4.0.3 and up (API 15), versionCode 620, built for universal (no ABI split), shipped 33 days after WeChat 6.2.2.
 
 ## 微信 6.2.4 下载地址
 
-| # | 架构 | versionCode | 构建号 | 安装包文件名 | 下载 |
+| # | 架构 | 大小 | versionCode | 安装包文件名 | 下载 |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| 1 | 通用 | 600 | - | `weixin624android600.apk` | [直接下载](https://dldir1.qq.com/weixin/android/weixin624android600.apk) |
+| 1 | 通用 | 30.8 MB | 620 | `weixin624android600.apk` | [直接下载](https://dldir1.qq.com/weixin/android/weixin624android600.apk) |
 
 所有链接均指向腾讯官方域名（`dldir1.qq.com` / `dldir1v6.qq.com`），本仓库不做任何二次打包或转存。
 
@@ -20,7 +24,10 @@
 | 版本号 | **6.2.4** |
 | 平台 | Android |
 | 发布日期 | 2015-07-29 |
-| versionCode | 600 |
+| 安装包大小 | 30.8 MB |
+| 最低系统要求 | Android 4.0.3 及以上（API 15） |
+| 目标 API 等级 | API 22（Android 5.1） |
+| versionCode | 620 |
 | 应用包名 | `com.tencent.mm` |
 | CPU 架构 | 通用包（未区分 CPU 架构） |
 | 官方下载数 | 1 |
@@ -57,9 +64,9 @@
 
 ## Download WeChat 6.2.4 APK
 
-| # | ABI | versionCode | Build | APK file name | Download |
+| # | ABI | Size | versionCode | APK file name | Download |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| 1 | universal | 600 | - | `weixin624android600.apk` | [Download APK](https://dldir1.qq.com/weixin/android/weixin624android600.apk) |
+| 1 | universal | 30.8 MB | 620 | `weixin624android600.apk` | [Download APK](https://dldir1.qq.com/weixin/android/weixin624android600.apk) |
 
 All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`). Nothing is re-hosted, repacked or modified here.
 
@@ -71,7 +78,10 @@ All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`).
 | Version | **6.2.4** |
 | Platform | Android |
 | Release date | 2015-07-29 |
-| versionCode | 600 |
+| APK size | 30.8 MB |
+| Requires Android | Android 4.0.3 and up (API 15) |
+| Target API level | API 22 (Android 5.1) |
+| versionCode | 620 |
 | Package name | `com.tencent.mm` |
 | ABI | universal (no ABI split) |
 | Official downloads | 1 |

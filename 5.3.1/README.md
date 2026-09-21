@@ -1,14 +1,18 @@
 # 微信 5.3.1 安卓版 APK 下载 | WeChat 5.3.1 APK Download for Android
 
-> 微信（WeChat）Android 5.3.1 于 2014-06-27 发布，本页收录该版本 1 个腾讯官方下载地址，内部版本号（versionCode）为 460，安装包架构为 通用包（未区分 CPU 架构）。
+> ⚠️ **注意**：腾讯替换过这个链接的内容。文件名标注为微信 5.3.1，但安装包内部记录的版本是 **5.4.0**，下载到的实际是后者。本页保留原始标注以便检索。
 
-> WeChat (Weixin) for Android 5.3.1 was released on 2014-06-27, this page lists 1 official Tencent download link, versionCode 460, built for universal (no ABI split).
+> ⚠️ **Note**: Tencent replaced the contents of this link. The file name says WeChat 5.3.1, but the APK itself reports version **5.4.0** — that is what you actually download.
+
+> 微信（WeChat）Android 5.3.1 于 2014-06-27 发布，本页收录该版本 1 个腾讯官方下载地址，安装包大小 22.8 MB，需要 Android 2.3.3 及以上（API 10），内部版本号（versionCode）为 480，安装包架构为 通用包（未区分 CPU 架构）。
+
+> WeChat (Weixin) for Android 5.3.1 was released on 2014-06-27, this page lists 1 official Tencent download link, APK size 22.8 MB, requires Android 2.3.3 and up (API 10), versionCode 480, built for universal (no ABI split).
 
 ## 微信 5.3.1 下载地址
 
-| # | 架构 | versionCode | 构建号 | 安装包文件名 | 下载 |
+| # | 架构 | 大小 | versionCode | 安装包文件名 | 下载 |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| 1 | 通用 | 460 | - | `weixin531android460.apk` | [直接下载](https://dldir1.qq.com/weixin/android/weixin531android460.apk) |
+| 1 | 通用 | 22.8 MB | 480 | `weixin531android460.apk` | [直接下载](https://dldir1.qq.com/weixin/android/weixin531android460.apk) |
 
 所有链接均指向腾讯官方域名（`dldir1.qq.com` / `dldir1v6.qq.com`），本仓库不做任何二次打包或转存。
 
@@ -20,7 +24,10 @@
 | 版本号 | **5.3.1** |
 | 平台 | Android |
 | 发布日期 | 2014-06-27 |
-| versionCode | 460 |
+| 安装包大小 | 22.8 MB |
+| 最低系统要求 | Android 2.3.3 及以上（API 10） |
+| 目标 API 等级 | API 16（Android 4.1） |
+| versionCode | 480 |
 | 应用包名 | `com.tencent.mm` |
 | CPU 架构 | 通用包（未区分 CPU 架构） |
 | 官方下载数 | 1 |
@@ -55,9 +62,9 @@
 
 ## Download WeChat 5.3.1 APK
 
-| # | ABI | versionCode | Build | APK file name | Download |
+| # | ABI | Size | versionCode | APK file name | Download |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| 1 | universal | 460 | - | `weixin531android460.apk` | [Download APK](https://dldir1.qq.com/weixin/android/weixin531android460.apk) |
+| 1 | universal | 22.8 MB | 480 | `weixin531android460.apk` | [Download APK](https://dldir1.qq.com/weixin/android/weixin531android460.apk) |
 
 All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`). Nothing is re-hosted, repacked or modified here.
 
@@ -69,7 +76,10 @@ All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`).
 | Version | **5.3.1** |
 | Platform | Android |
 | Release date | 2014-06-27 |
-| versionCode | 460 |
+| APK size | 22.8 MB |
+| Requires Android | Android 2.3.3 and up (API 10) |
+| Target API level | API 16 (Android 4.1) |
+| versionCode | 480 |
 | Package name | `com.tencent.mm` |
 | ABI | universal (no ABI split) |
 | Official downloads | 1 |

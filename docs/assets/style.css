@@ -9,6 +9,7 @@ h2{font-size:1.25rem;margin:1.8em 0 .6em;padding-bottom:.3em;border-bottom:1px s
 p,li{color:#1f2328}
 a{color:#0969da}
 .lead{background:#f6f8fa;border-left:4px solid #0969da;padding:12px 16px;border-radius:0 6px 6px 0;margin:1em 0}
+.warn{background:#fff8c5;border-left:4px solid #d4a72c;padding:12px 16px;border-radius:0 6px 6px 0;margin:1em 0}
 table{border-collapse:collapse;width:100%;margin:1em 0;font-size:.92rem;display:block;overflow-x:auto}
 th,td{border:1px solid #d1d9e0;padding:8px 10px;text-align:left;vertical-align:top}
 th{background:#f6f8fa;white-space:nowrap}
@@ -32,6 +33,7 @@ header.site{background:#161b22;border-color:#30363d}
 h2{border-color:#30363d}
 p,li,td{color:#e6edf3}
 .lead{background:#161b22}
+.warn{background:#272115;color:#e6edf3}
 th,td,nav.adj a,.grid a,section.alt,.langbar a{border-color:#30363d}
 th,.langbar a{background:#161b22}
 code{background:#161b22}

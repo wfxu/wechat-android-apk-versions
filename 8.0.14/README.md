@@ -1,14 +1,14 @@
 # 微信 8.0.14 安卓版 APK 下载 | WeChat 8.0.14 APK Download for Android
 
-> 微信（WeChat）Android 8.0.14 于 2021-09-24 发布，本页收录该版本 1 个腾讯官方下载地址，内部版本号（versionCode）为 2000，安装包架构为 通用包（未区分 CPU 架构），距上一个版本 8.0.11 相隔 29 天。
+> 微信（WeChat）Android 8.0.14 于 2021-09-24 发布，本页收录该版本 1 个腾讯官方下载地址，安装包大小 196.9 MB，需要 Android 5.0 及以上（API 21），内部版本号（versionCode）为 2000，安装包架构为 通用包（未区分 CPU 架构），距上一个版本 8.0.11 相隔 29 天。
 
-> WeChat (Weixin) for Android 8.0.14 was released on 2021-09-24, this page lists 1 official Tencent download link, versionCode 2000, built for universal (no ABI split), shipped 29 days after WeChat 8.0.11.
+> WeChat (Weixin) for Android 8.0.14 was released on 2021-09-24, this page lists 1 official Tencent download link, APK size 196.9 MB, requires Android 5.0 and up (API 21), versionCode 2000, built for universal (no ABI split), shipped 29 days after WeChat 8.0.11.
 
 ## 微信 8.0.14 下载地址
 
-| # | 架构 | versionCode | 构建号 | 安装包文件名 | 下载 |
+| # | 架构 | 大小 | versionCode | 安装包文件名 | 下载 |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| 1 | 通用 | 2000 | - | `weixin8014android2000.apk` | [直接下载](https://dldir1.qq.com/weixin/android/weixin8014android2000.apk) |
+| 1 | 通用 | 196.9 MB | 2000 | `weixin8014android2000.apk` | [直接下载](https://dldir1.qq.com/weixin/android/weixin8014android2000.apk) |
 
 所有链接均指向腾讯官方域名（`dldir1.qq.com` / `dldir1v6.qq.com`），本仓库不做任何二次打包或转存。
 
@@ -20,6 +20,9 @@
 | 版本号 | **8.0.14** |
 | 平台 | Android |
 | 发布日期 | 2021-09-24 |
+| 安装包大小 | 196.9 MB |
+| 最低系统要求 | Android 5.0 及以上（API 21） |
+| 目标 API 等级 | API 29（Android 10） |
 | versionCode | 2000 |
 | 应用包名 | `com.tencent.mm` |
 | CPU 架构 | 通用包（未区分 CPU 架构） |
@@ -57,9 +60,9 @@
 
 ## Download WeChat 8.0.14 APK
 
-| # | ABI | versionCode | Build | APK file name | Download |
+| # | ABI | Size | versionCode | APK file name | Download |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| 1 | universal | 2000 | - | `weixin8014android2000.apk` | [Download APK](https://dldir1.qq.com/weixin/android/weixin8014android2000.apk) |
+| 1 | universal | 196.9 MB | 2000 | `weixin8014android2000.apk` | [Download APK](https://dldir1.qq.com/weixin/android/weixin8014android2000.apk) |
 
 All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`). Nothing is re-hosted, repacked or modified here.
 
@@ -71,6 +74,9 @@ All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`).
 | Version | **8.0.14** |
 | Platform | Android |
 | Release date | 2021-09-24 |
+| APK size | 196.9 MB |
+| Requires Android | Android 5.0 and up (API 21) |
+| Target API level | API 29 (Android 10) |
 | versionCode | 2000 |
 | Package name | `com.tencent.mm` |
 | ABI | universal (no ABI split) |

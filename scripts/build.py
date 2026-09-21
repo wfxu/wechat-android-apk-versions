@@ -28,6 +28,7 @@ from html import escape
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "version.json")
+META = os.path.join(ROOT, "apkmeta.json")
 DOCS = os.path.join(ROOT, "docs")
 
 # 站点地址由 GitHub Actions 注入的 GITHUB_REPOSITORY 推导，改仓库名不会让 canonical 失效
@@ -70,11 +71,30 @@ def parse_url(url):
     return out
 
 
+def human_size(n):
+    """字节数转成人看的大小。"""
+    if not n:
+        return None
+    return "%.1f MB" % (n / 1048576.0) if n < 1073741824 else "%.2f GB" % (n / 1073741824.0)
+
+
+def load_meta():
+    """读取 apkmeta.json（scripts/apkmeta.py 生成）。没有就返回空表。"""
+    if not os.path.exists(META):
+        return {}
+    try:
+        with open(META, encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return {}
+
+
 def load() -> "tuple[list, list]":
     """读取 version.json，按版本号分组并补齐排序 / 相邻版本 / 间隔天数。"""
     with open(DATA, encoding="utf-8") as f:
         raw = json.load(f)
 
+    meta = load_meta()
     groups = {}
     skipped = []
     for row in raw:
@@ -92,6 +112,27 @@ def load() -> "tuple[list, list]":
         if row["publish_date"] < g["date"]:
             g["date"] = row["publish_date"]
         b = parse_url(row["url"])
+        m = meta.get(b["url"], {})
+        b["size"] = m.get("size")
+        b["size_h"] = human_size(m.get("size"))
+        b["min_sdk"] = m.get("min_sdk")
+        b["target_sdk"] = m.get("target_sdk")
+        b["android_release"] = m.get("android_release")
+        b["alive"] = (m.get("status") == 200) if m.get("status") else None
+        # 上游把版本号写在文件名里，但腾讯替换过部分老链接的内容，
+        # 导致「标注版本」和「包里真实版本」对不上。以包内 versionName 为准。
+        vn = m.get("version_name")
+        b["version_name"] = vn
+        b["actual"] = None
+        b["mismatch"] = False
+        if vn:
+            core = ".".join(str(vn).split("_")[0].split(".")[:3])
+            b["actual"] = core
+            b["mismatch"] = not (core == ver or core.startswith(ver + ".")
+                                 or ver.startswith(core))
+        # manifest 里的 versionCode 比文件名可靠，有就用它
+        if m.get("version_code"):
+            b["code"] = str(m["version_code"])
         if b["url"] not in {x["url"] for x in g["builds"]}:
             g["builds"].append(b)
 
@@ -105,6 +146,21 @@ def load() -> "tuple[list, list]":
         g["slug"] = g["version"]
         g["codes"] = sorted({b["code"] for b in g["builds"] if b["code"]})
         g["archs"] = sorted({b["arch"] for b in g["builds"] if b["arch"]})
+
+        # 同一版本各 build 的 minSdk / targetSdk 通常一致，取出现过的值
+        g["min_sdk"] = next((b["min_sdk"] for b in g["builds"]
+                             if b.get("min_sdk")), None)
+        g["target_sdk"] = next((b["target_sdk"] for b in g["builds"]
+                                if b.get("target_sdk")), None)
+        g["android_release"] = next((b["android_release"] for b in g["builds"]
+                                     if b.get("android_release")), None)
+        sizes = [b["size"] for b in g["builds"] if b.get("size")]
+        g["size_h"] = (human_size(min(sizes)) if len(set(sizes)) == 1
+                       else ("%s – %s" % (human_size(min(sizes)),
+                                          human_size(max(sizes))))) if sizes else None
+        dead = [b for b in g["builds"] if b.get("alive") is False]
+        g["dead"] = len(dead)
+        g["mismatched"] = [b for b in g["builds"] if b.get("mismatch")]
 
     # 与上一版本的间隔天数
     for g in vers:
@@ -120,6 +176,15 @@ def load() -> "tuple[list, list]":
 
 
 # ---------------------------------------------------------------- 文案片段
+
+# Android API level -> 用户认得的系统版本号（与 scripts/apkmeta.py 保持一致）
+API_LEVELS = {
+    8: "2.2", 9: "2.3", 10: "2.3.3", 11: "3.0", 12: "3.1", 13: "3.2",
+    14: "4.0", 15: "4.0.3", 16: "4.1", 17: "4.2", 18: "4.3", 19: "4.4",
+    20: "4.4W", 21: "5.0", 22: "5.1", 23: "6.0", 24: "7.0", 25: "7.1",
+    26: "8.0", 27: "8.1", 28: "9", 29: "10", 30: "11", 31: "12",
+    32: "12L", 33: "13", 34: "14", 35: "15", 36: "16",
+}
 
 ARCH_EN = {"arm64": "arm64 (64-bit ARM)", "arm32": "arm32 (32-bit ARM)",
            "x86": "x86", "x86_64": "x86_64", "x64": "x64"}
@@ -145,12 +210,49 @@ def codes_of(g):
     return "、".join(g["codes"]) if g["codes"] else "-"
 
 
+def req_zh(g):
+    """最低系统要求，来自 APK manifest 的 minSdkVersion。"""
+    if not g.get("min_sdk"):
+        return "-"
+    rel = g.get("android_release")
+    return ("Android %s 及以上（API %d）" % (rel, g["min_sdk"]) if rel
+            else "API %d 及以上" % g["min_sdk"])
+
+
+def req_en(g):
+    if not g.get("min_sdk"):
+        return "-"
+    rel = g.get("android_release")
+    return ("Android %s and up (API %d)" % (rel, g["min_sdk"]) if rel
+            else "API %d and up" % g["min_sdk"])
+
+
+def target_zh(g):
+    if not g.get("target_sdk"):
+        return "-"
+    rel = API_LEVELS.get(g["target_sdk"])
+    return ("API %d（Android %s）" % (g["target_sdk"], rel) if rel
+            else "API %d" % g["target_sdk"])
+
+
+def target_en(g):
+    if not g.get("target_sdk"):
+        return "-"
+    rel = API_LEVELS.get(g["target_sdk"])
+    return ("API %d (Android %s)" % (g["target_sdk"], rel) if rel
+            else "API %d" % g["target_sdk"])
+
+
 def summary_zh(g):
     """只陈述能从数据推出的事实，不编造更新日志。"""
     bits = [
         "微信（WeChat）Android %s 于 %s 发布" % (g["version"], g["date"]),
         "本页收录该版本 %d 个腾讯官方下载地址" % len(g["builds"]),
     ]
+    if g.get("size_h"):
+        bits.append("安装包大小 %s" % g["size_h"])
+    if g.get("min_sdk"):
+        bits.append("需要 %s" % req_zh(g).replace("（API", "（API"))
     if g["codes"]:
         bits.append("内部版本号（versionCode）为 %s" % "、".join(g["codes"]))
     bits.append("安装包架构为 %s" % arch_zh(g))
@@ -165,6 +267,10 @@ def summary_en(g):
         "this page lists %d official Tencent download link%s"
         % (len(g["builds"]), "" if len(g["builds"]) == 1 else "s"),
     ]
+    if g.get("size_h"):
+        bits.append("APK size %s" % g["size_h"])
+    if g.get("min_sdk"):
+        bits.append("requires %s" % req_en(g))
     if g["codes"]:
         bits.append("versionCode %s" % ", ".join(g["codes"]))
     bits.append("built for %s" % arch_en(g))
@@ -190,6 +296,17 @@ def version_md(g, total):
     A = L.append
     A("# 微信 %s 安卓版 APK 下载 | WeChat %s APK Download for Android" % (v, v))
     A("")
+    if g.get("mismatched"):
+        actual_zh = "、".join(sorted({b["actual"] for b in g["mismatched"] if b["actual"]}))
+        actual_en = ", ".join(sorted({b["actual"] for b in g["mismatched"] if b["actual"]}))
+        A("> ⚠️ **注意**：腾讯替换过这个链接的内容。文件名标注为微信 %s，"
+          "但安装包内部记录的版本是 **%s**，下载到的实际是后者。"
+          "本页保留原始标注以便检索。" % (v, actual_zh))
+        A("")
+        A("> ⚠️ **Note**: Tencent replaced the contents of this link. The file name "
+          "says WeChat %s, but the APK itself reports version **%s** — that is what "
+          "you actually download." % (v, actual_en))
+        A("")
     A("> %s" % summary_zh(g))
     A("")
     A("> %s" % summary_en(g))
@@ -198,12 +315,13 @@ def version_md(g, total):
     # ------------------------------ 中文 ------------------------------
     A("## 微信 %s 下载地址" % v)
     A("")
-    A("| # | 架构 | versionCode | 构建号 | 安装包文件名 | 下载 |")
+    A("| # | 架构 | 大小 | versionCode | 安装包文件名 | 下载 |")
     A("| :-- | :-- | :-- | :-- | :-- | :-- |")
     for i, b in enumerate(g["builds"], 1):
-        A("| %d | %s | %s | %s | `%s` | [直接下载](%s) |" % (
-            i, b["arch"] or "通用", b["code"] or "-", b["hex"] or "-",
-            b["file"], b["url"]))
+        link = ("[直接下载](%s)" % b["url"]) if b.get("alive") is not False             else "链接已失效"
+        A("| %d | %s | %s | %s | `%s` | %s |" % (
+            i, b["arch"] or "通用", b.get("size_h") or "-", b["code"] or "-",
+            b["file"], link))
     A("")
     A("所有链接均指向腾讯官方域名（`dldir1.qq.com` / `dldir1v6.qq.com`），"
       "本仓库不做任何二次打包或转存。")
@@ -216,6 +334,9 @@ def version_md(g, total):
     A("| 版本号 | **%s** |" % v)
     A("| 平台 | Android |")
     A("| 发布日期 | %s |" % g["date"])
+    A("| 安装包大小 | %s |" % (g.get("size_h") or "-"))
+    A("| 最低系统要求 | %s |" % req_zh(g))
+    A("| 目标 API 等级 | %s |" % target_zh(g))
     A("| versionCode | %s |" % codes_of(g))
     A("| 应用包名 | `%s` |" % PKG)
     A("| CPU 架构 | %s |" % arch_zh(g))
@@ -271,12 +392,13 @@ def version_md(g, total):
     # ------------------------------ English ------------------------------
     A("## Download WeChat %s APK" % v)
     A("")
-    A("| # | ABI | versionCode | Build | APK file name | Download |")
+    A("| # | ABI | Size | versionCode | APK file name | Download |")
     A("| :-- | :-- | :-- | :-- | :-- | :-- |")
     for i, b in enumerate(g["builds"], 1):
-        A("| %d | %s | %s | %s | `%s` | [Download APK](%s) |" % (
-            i, b["arch"] or "universal", b["code"] or "-", b["hex"] or "-",
-            b["file"], b["url"]))
+        link = ("[Download APK](%s)" % b["url"]) if b.get("alive") is not False             else "Link dead"
+        A("| %d | %s | %s | %s | `%s` | %s |" % (
+            i, b["arch"] or "universal", b.get("size_h") or "-", b["code"] or "-",
+            b["file"], link))
     A("")
     A("All links point to Tencent's official CDN (`dldir1.qq.com` / "
       "`dldir1v6.qq.com`). Nothing is re-hosted, repacked or modified here.")
@@ -289,6 +411,9 @@ def version_md(g, total):
     A("| Version | **%s** |" % v)
     A("| Platform | Android |")
     A("| Release date | %s |" % g["date"])
+    A("| APK size | %s |" % (g.get("size_h") or "-"))
+    A("| Requires Android | %s |" % req_en(g))
+    A("| Target API level | %s |" % target_en(g))
     A("| versionCode | %s |" % codes_of(g))
     A("| Package name | `%s` |" % PKG)
     A("| ABI | %s |" % arch_en(g))
@@ -381,15 +506,17 @@ def index_md(vers):
     A("")
     A("## 全部版本 / All versions")
     A("")
-    A("| 版本号 Version | 发布日期 Release date | versionCode | 架构 ABI | "
-      "下载数 Links | 独立页面 Page |")
+    A("| 版本号 Version | 发布日期 Release date | 大小 Size | "
+      "最低系统 Requires | versionCode | 独立页面 Page |")
     A("| :-- | :-- | :-- | :-- | :-- | :-- |")
     for g in vers:
-        A("| 微信 %s / WeChat %s | %s | %s | %s | %d | "
+        A("| 微信 %s / WeChat %s | %s | %s | %s | %s | "
           "[微信 %s 下载 / Download WeChat %s APK](%s/) |" % (
-              g["version"], g["version"], g["date"], codes_of(g),
-              "、".join(archs_of(g)) if archs_of(g) else "通用 universal",
-              len(g["builds"]), g["version"], g["version"], g["slug"]))
+              g["version"], g["version"], g["date"],
+              g.get("size_h") or "-",
+              ("Android %s+" % g["android_release"]) if g.get("android_release")
+              else "-",
+              codes_of(g), g["version"], g["version"], g["slug"]))
     A("")
     A("## 数据来源与声明 / Source and disclaimer")
     A("")
@@ -442,6 +569,7 @@ h2{font-size:1.25rem;margin:1.8em 0 .6em;padding-bottom:.3em;border-bottom:1px s
 p,li{color:#1f2328}
 a{color:#0969da}
 .lead{background:#f6f8fa;border-left:4px solid #0969da;padding:12px 16px;border-radius:0 6px 6px 0;margin:1em 0}
+.warn{background:#fff8c5;border-left:4px solid #d4a72c;padding:12px 16px;border-radius:0 6px 6px 0;margin:1em 0}
 table{border-collapse:collapse;width:100%;margin:1em 0;font-size:.92rem;display:block;overflow-x:auto}
 th,td{border:1px solid #d1d9e0;padding:8px 10px;text-align:left;vertical-align:top}
 th{background:#f6f8fa;white-space:nowrap}
@@ -465,6 +593,7 @@ header.site{background:#161b22;border-color:#30363d}
 h2{border-color:#30363d}
 p,li,td{color:#e6edf3}
 .lead{background:#161b22}
+.warn{background:#272115;color:#e6edf3}
 th,td,nav.adj a,.grid a,section.alt,.langbar a{border-color:#30363d}
 th,.langbar a{background:#161b22}
 code{background:#161b22}
@@ -510,20 +639,24 @@ WeChat and 微信 are trademarks of Tencent; this project is not affiliated with
 
 def dl_table_html(g, lang):
     """lang='zh' | 'en'"""
-    hdr = (["#", "架构", "versionCode", "构建号", "安装包文件名", "下载"]
+    hdr = (["#", "架构", "大小", "包内版本", "安装包文件名", "下载"]
            if lang == "zh" else
-           ["#", "ABI", "versionCode", "Build", "APK file name", "Download"])
+           ["#", "ABI", "Size", "APK reports", "APK file name", "Download"])
     uni = "通用" if lang == "zh" else "universal"
     btn = "下载 APK" if lang == "zh" else "Download APK"
+    gone = "链接已失效" if lang == "zh" else "Link dead"
     H = ["<table><thead><tr>%s</tr></thead><tbody>"
          % "".join("<th>%s</th>" % escape(h) for h in hdr)]
     for i, b in enumerate(g["builds"], 1):
+        if b.get("alive") is False:
+            cell = "<span>%s</span>" % escape(gone)
+        else:
+            cell = ('<a class="dl" href="%s" rel="nofollow">%s</a>'
+                    % (escape(b["url"]), escape(btn)))
         H.append("<tr><td>%d</td><td>%s</td><td>%s</td><td>%s</td>"
-                 "<td><code>%s</code></td>"
-                 '<td><a class="dl" href="%s" rel="nofollow">%s</a></td></tr>' % (
-                     i, escape(b["arch"] or uni), escape(b["code"] or "-"),
-                     escape(b["hex"] or "-"), escape(b["file"]), escape(b["url"]),
-                     escape(btn)))
+                 "<td><code>%s</code></td><td>%s</td></tr>" % (
+                     i, escape(b["arch"] or uni), escape(b.get("size_h") or "-"),
+                     escape(b.get("actual") or "-"), escape(b["file"]), cell))
     H.append("</tbody></table>")
     return "\n".join(H)
 
@@ -535,6 +668,9 @@ def info_table_html(g, total, lang):
             ("版本号", g["version"]),
             ("平台", "Android"),
             ("发布日期", g["date"]),
+            ("安装包大小", g.get("size_h") or "-"),
+            ("最低系统要求", req_zh(g)),
+            ("目标 API 等级", target_zh(g)),
             ("versionCode", codes_of(g)),
             ("应用包名", PKG),
             ("CPU 架构", arch_zh(g)),
@@ -549,6 +685,9 @@ def info_table_html(g, total, lang):
             ("Version", g["version"]),
             ("Platform", "Android"),
             ("Release date", g["date"]),
+            ("APK size", g.get("size_h") or "-"),
+            ("Requires Android", req_en(g)),
+            ("Target API level", target_en(g)),
             ("versionCode", codes_of(g)),
             ("Package name", PKG),
             ("ABI", arch_en(g)),
@@ -583,6 +722,11 @@ def version_html(g, total):
         "offers": {"@type": "Offer", "price": "0", "priceCurrency": "CNY"},
         "publisher": {"@type": "Organization", "name": "腾讯 Tencent"},
     }
+    if g.get("size_h"):
+        ld["fileSize"] = g["size_h"]
+    if g.get("android_release"):
+        ld["operatingSystem"] = "Android %s+" % g["android_release"]
+        ld["softwareRequirements"] = req_en(g)
     crumb = {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
@@ -634,6 +778,12 @@ def version_html(g, total):
 
     # ---- 中文 ----
     A('<section id="zh" lang="zh-CN">')
+    if g.get("mismatched"):
+        actual = "、".join(sorted({b["actual"] for b in g["mismatched"] if b["actual"]}))
+        A('<p class="warn">⚠️ 注意：腾讯替换过这个链接的内容。文件名标注为微信 %s，'
+          "但安装包内部记录的版本是 <strong>%s</strong>，下载到的实际是后者。"
+          "本页保留原始标注以便检索，该信息由本站解析安装包得出。</p>"
+          % (escape(v), escape(actual)))
     A('<p class="lead">%s</p>' % escape(summary_zh(g)))
     A("<h2>微信 %s 下载地址</h2>" % escape(v))
     A(dl_table_html(g, "zh"))
@@ -682,6 +832,13 @@ def version_html(g, total):
 
     # ---- English ----
     A('<section id="en" class="alt" lang="en">')
+    if g.get("mismatched"):
+        actual = ", ".join(sorted({b["actual"] for b in g["mismatched"] if b["actual"]}))
+        A('<p class="warn">⚠️ Note: Tencent replaced the contents of this link. '
+          "The file name says WeChat %s, but the APK itself reports version "
+          "<strong>%s</strong> — that is what you actually download. The original "
+          "label is kept here for searchability; this discrepancy was found by "
+          "parsing the APK manifest.</p>" % (escape(v), escape(actual)))
     A('<p class="lead">%s</p>' % escape(summary_en(g)))
     A("<h2>Download WeChat %s APK</h2>" % escape(v))
     A(dl_table_html(g, "en"))
@@ -796,16 +953,17 @@ def index_html(vers):
 
     A("<h2>全部版本明细 / All versions</h2>")
     A("<table><thead><tr><th>版本号 Version</th><th>发布日期 Release date</th>"
-      "<th>versionCode</th><th>架构 ABI</th><th>下载数 Links</th>"
+      "<th>大小 Size</th><th>最低系统 Requires</th><th>versionCode</th>"
       "<th>页面 Page</th></tr></thead><tbody>")
     for g in vers:
         A("<tr><td>微信 %s / WeChat %s</td><td>%s</td><td>%s</td><td>%s</td>"
-          '<td>%d</td><td><a href="%s/%s/">微信 %s 下载 / '
+          '<td>%s</td><td><a href="%s/%s/">微信 %s 下载 / '
           "Download WeChat %s APK</a></td></tr>" % (
               escape(g["version"]), escape(g["version"]), g["date"],
-              escape(codes_of(g)),
-              escape("、".join(archs_of(g)) if archs_of(g) else "通用 universal"),
-              len(g["builds"]), SITE, g["slug"],
+              escape(g.get("size_h") or "-"),
+              escape(("Android %s+" % g["android_release"])
+                     if g.get("android_release") else "-"),
+              escape(codes_of(g)), SITE, g["slug"],
               escape(g["version"]), escape(g["version"])))
     A("</tbody></table>")
 

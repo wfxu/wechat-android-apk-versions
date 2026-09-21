@@ -1,14 +1,14 @@
 # 微信 7.0.15 安卓版 APK 下载 | WeChat 7.0.15 APK Download for Android
 
-> 微信（WeChat）Android 7.0.15 于 2020-05-28 发布，本页收录该版本 1 个腾讯官方下载地址，内部版本号（versionCode）为 1680，安装包架构为 通用包（未区分 CPU 架构），距上一个版本 7.0.14 相隔 28 天。
+> 微信（WeChat）Android 7.0.15 于 2020-05-28 发布，本页收录该版本 1 个腾讯官方下载地址，安装包大小 132.2 MB，需要 Android 5.0 及以上（API 21），内部版本号（versionCode）为 1680，安装包架构为 通用包（未区分 CPU 架构），距上一个版本 7.0.14 相隔 28 天。
 
-> WeChat (Weixin) for Android 7.0.15 was released on 2020-05-28, this page lists 1 official Tencent download link, versionCode 1680, built for universal (no ABI split), shipped 28 days after WeChat 7.0.14.
+> WeChat (Weixin) for Android 7.0.15 was released on 2020-05-28, this page lists 1 official Tencent download link, APK size 132.2 MB, requires Android 5.0 and up (API 21), versionCode 1680, built for universal (no ABI split), shipped 28 days after WeChat 7.0.14.
 
 ## 微信 7.0.15 下载地址
 
-| # | 架构 | versionCode | 构建号 | 安装包文件名 | 下载 |
+| # | 架构 | 大小 | versionCode | 安装包文件名 | 下载 |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| 1 | 通用 | 1680 | - | `weixin7015android1680.apk` | [直接下载](https://dldir1.qq.com/weixin/android/weixin7015android1680.apk) |
+| 1 | 通用 | 132.2 MB | 1680 | `weixin7015android1680.apk` | [直接下载](https://dldir1.qq.com/weixin/android/weixin7015android1680.apk) |
 
 所有链接均指向腾讯官方域名（`dldir1.qq.com` / `dldir1v6.qq.com`），本仓库不做任何二次打包或转存。
 
@@ -20,6 +20,9 @@
 | 版本号 | **7.0.15** |
 | 平台 | Android |
 | 发布日期 | 2020-05-28 |
+| 安装包大小 | 132.2 MB |
+| 最低系统要求 | Android 5.0 及以上（API 21） |
+| 目标 API 等级 | API 28（Android 9） |
 | versionCode | 1680 |
 | 应用包名 | `com.tencent.mm` |
 | CPU 架构 | 通用包（未区分 CPU 架构） |
@@ -57,9 +60,9 @@
 
 ## Download WeChat 7.0.15 APK
 
-| # | ABI | versionCode | Build | APK file name | Download |
+| # | ABI | Size | versionCode | APK file name | Download |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| 1 | universal | 1680 | - | `weixin7015android1680.apk` | [Download APK](https://dldir1.qq.com/weixin/android/weixin7015android1680.apk) |
+| 1 | universal | 132.2 MB | 1680 | `weixin7015android1680.apk` | [Download APK](https://dldir1.qq.com/weixin/android/weixin7015android1680.apk) |
 
 All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`). Nothing is re-hosted, repacked or modified here.
 
@@ -71,6 +74,9 @@ All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`).
 | Version | **7.0.15** |
 | Platform | Android |
 | Release date | 2020-05-28 |
+| APK size | 132.2 MB |
+| Requires Android | Android 5.0 and up (API 21) |
+| Target API level | API 28 (Android 9) |
 | versionCode | 1680 |
 | Package name | `com.tencent.mm` |
 | ABI | universal (no ABI split) |

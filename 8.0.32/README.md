@@ -1,14 +1,14 @@
 # 微信 8.0.32 安卓版 APK 下载 | WeChat 8.0.32 APK Download for Android
 
-> 微信（WeChat）Android 8.0.32 于 2023-01-06 发布，本页收录该版本 1 个腾讯官方下载地址，内部版本号（versionCode）为 2300，安装包架构为 通用包（未区分 CPU 架构），距上一个版本 8.0.31 相隔 29 天。
+> 微信（WeChat）Android 8.0.32 于 2023-01-06 发布，本页收录该版本 1 个腾讯官方下载地址，安装包大小 220.4 MB，需要 Android 5.0 及以上（API 21），内部版本号（versionCode）为 2300，安装包架构为 通用包（未区分 CPU 架构），距上一个版本 8.0.31 相隔 29 天。
 
-> WeChat (Weixin) for Android 8.0.32 was released on 2023-01-06, this page lists 1 official Tencent download link, versionCode 2300, built for universal (no ABI split), shipped 29 days after WeChat 8.0.31.
+> WeChat (Weixin) for Android 8.0.32 was released on 2023-01-06, this page lists 1 official Tencent download link, APK size 220.4 MB, requires Android 5.0 and up (API 21), versionCode 2300, built for universal (no ABI split), shipped 29 days after WeChat 8.0.31.
 
 ## 微信 8.0.32 下载地址
 
-| # | 架构 | versionCode | 构建号 | 安装包文件名 | 下载 |
+| # | 架构 | 大小 | versionCode | 安装包文件名 | 下载 |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| 1 | 通用 | 2300 | - | `weixin8032android2300.apk` | [直接下载](https://dldir1.qq.com/weixin/android/weixin8032android2300.apk) |
+| 1 | 通用 | 220.4 MB | 2300 | `weixin8032android2300.apk` | [直接下载](https://dldir1.qq.com/weixin/android/weixin8032android2300.apk) |
 
 所有链接均指向腾讯官方域名（`dldir1.qq.com` / `dldir1v6.qq.com`），本仓库不做任何二次打包或转存。
 
@@ -20,6 +20,9 @@
 | 版本号 | **8.0.32** |
 | 平台 | Android |
 | 发布日期 | 2023-01-06 |
+| 安装包大小 | 220.4 MB |
+| 最低系统要求 | Android 5.0 及以上（API 21） |
+| 目标 API 等级 | API 29（Android 10） |
 | versionCode | 2300 |
 | 应用包名 | `com.tencent.mm` |
 | CPU 架构 | 通用包（未区分 CPU 架构） |
@@ -57,9 +60,9 @@
 
 ## Download WeChat 8.0.32 APK
 
-| # | ABI | versionCode | Build | APK file name | Download |
+| # | ABI | Size | versionCode | APK file name | Download |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| 1 | universal | 2300 | - | `weixin8032android2300.apk` | [Download APK](https://dldir1.qq.com/weixin/android/weixin8032android2300.apk) |
+| 1 | universal | 220.4 MB | 2300 | `weixin8032android2300.apk` | [Download APK](https://dldir1.qq.com/weixin/android/weixin8032android2300.apk) |
 
 All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`). Nothing is re-hosted, repacked or modified here.
 
@@ -71,6 +74,9 @@ All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`).
 | Version | **8.0.32** |
 | Platform | Android |
 | Release date | 2023-01-06 |
+| APK size | 220.4 MB |
+| Requires Android | Android 5.0 and up (API 21) |
+| Target API level | API 29 (Android 10) |
 | versionCode | 2300 |
 | Package name | `com.tencent.mm` |
 | ABI | universal (no ABI split) |

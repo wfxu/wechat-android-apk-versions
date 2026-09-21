@@ -1,15 +1,15 @@
 # 微信 8.0.76 安卓版 APK 下载 | WeChat 8.0.76 APK Download for Android
 
-> 微信（WeChat）Android 8.0.76 于 2026-07-08 发布，本页收录该版本 2 个腾讯官方下载地址，内部版本号（versionCode）为 3140、3141，安装包架构为 arm64（64 位 ARM），距上一个版本 8.0.74 相隔 30 天。
+> 微信（WeChat）Android 8.0.76 于 2026-07-08 发布，本页收录该版本 2 个腾讯官方下载地址，安装包大小 253.8 MB – 253.8 MB，需要 Android 7.0 及以上（API 24），内部版本号（versionCode）为 3140、3141，安装包架构为 arm64（64 位 ARM），距上一个版本 8.0.74 相隔 30 天。
 
-> WeChat (Weixin) for Android 8.0.76 was released on 2026-07-08, this page lists 2 official Tencent download links, versionCode 3140, 3141, built for arm64 (64-bit ARM), shipped 30 days after WeChat 8.0.74.
+> WeChat (Weixin) for Android 8.0.76 was released on 2026-07-08, this page lists 2 official Tencent download links, APK size 253.8 MB – 253.8 MB, requires Android 7.0 and up (API 24), versionCode 3140, 3141, built for arm64 (64-bit ARM), shipped 30 days after WeChat 8.0.74.
 
 ## 微信 8.0.76 下载地址
 
-| # | 架构 | versionCode | 构建号 | 安装包文件名 | 下载 |
+| # | 架构 | 大小 | versionCode | 安装包文件名 | 下载 |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| 1 | arm64 | 3141 | 0x28004c31 | `weixin8076android3141_0x28004c31_arm64.apk` | [直接下载](https://dldir1v6.qq.com/weixin/android/weixin8076android3141_0x28004c31_arm64.apk) |
-| 2 | arm64 | 3140 | 0x28004c30 | `weixin8076android3140_0x28004c30_arm64.apk` | [直接下载](https://dldir1v6.qq.com/weixin/android/weixin8076android3140_0x28004c30_arm64.apk) |
+| 1 | arm64 | 253.8 MB | 3141 | `weixin8076android3141_0x28004c31_arm64.apk` | [直接下载](https://dldir1v6.qq.com/weixin/android/weixin8076android3141_0x28004c31_arm64.apk) |
+| 2 | arm64 | 253.8 MB | 3140 | `weixin8076android3140_0x28004c30_arm64.apk` | [直接下载](https://dldir1v6.qq.com/weixin/android/weixin8076android3140_0x28004c30_arm64.apk) |
 
 所有链接均指向腾讯官方域名（`dldir1.qq.com` / `dldir1v6.qq.com`），本仓库不做任何二次打包或转存。
 
@@ -21,6 +21,9 @@
 | 版本号 | **8.0.76** |
 | 平台 | Android |
 | 发布日期 | 2026-07-08 |
+| 安装包大小 | 253.8 MB – 253.8 MB |
+| 最低系统要求 | Android 7.0 及以上（API 24） |
+| 目标 API 等级 | API 34（Android 14） |
 | versionCode | 3140、3141 |
 | 应用包名 | `com.tencent.mm` |
 | CPU 架构 | arm64（64 位 ARM） |
@@ -58,10 +61,10 @@
 
 ## Download WeChat 8.0.76 APK
 
-| # | ABI | versionCode | Build | APK file name | Download |
+| # | ABI | Size | versionCode | APK file name | Download |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| 1 | arm64 | 3141 | 0x28004c31 | `weixin8076android3141_0x28004c31_arm64.apk` | [Download APK](https://dldir1v6.qq.com/weixin/android/weixin8076android3141_0x28004c31_arm64.apk) |
-| 2 | arm64 | 3140 | 0x28004c30 | `weixin8076android3140_0x28004c30_arm64.apk` | [Download APK](https://dldir1v6.qq.com/weixin/android/weixin8076android3140_0x28004c30_arm64.apk) |
+| 1 | arm64 | 253.8 MB | 3141 | `weixin8076android3141_0x28004c31_arm64.apk` | [Download APK](https://dldir1v6.qq.com/weixin/android/weixin8076android3141_0x28004c31_arm64.apk) |
+| 2 | arm64 | 253.8 MB | 3140 | `weixin8076android3140_0x28004c30_arm64.apk` | [Download APK](https://dldir1v6.qq.com/weixin/android/weixin8076android3140_0x28004c30_arm64.apk) |
 
 All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`). Nothing is re-hosted, repacked or modified here.
 
@@ -73,6 +76,9 @@ All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`).
 | Version | **8.0.76** |
 | Platform | Android |
 | Release date | 2026-07-08 |
+| APK size | 253.8 MB – 253.8 MB |
+| Requires Android | Android 7.0 and up (API 24) |
+| Target API level | API 34 (Android 14) |
 | versionCode | 3140、3141 |
 | Package name | `com.tencent.mm` |
 | ABI | arm64 (64-bit ARM) |

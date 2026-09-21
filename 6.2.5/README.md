@@ -1,14 +1,14 @@
 # 微信 6.2.5 安卓版 APK 下载 | WeChat 6.2.5 APK Download for Android
 
-> 微信（WeChat）Android 6.2.5 于 2015-08-28 发布，本页收录该版本 1 个腾讯官方下载地址，内部版本号（versionCode）为 620，安装包架构为 通用包（未区分 CPU 架构），距上一个版本 6.2.4 相隔 30 天。
+> 微信（WeChat）Android 6.2.5 于 2015-08-28 发布，本页收录该版本 1 个腾讯官方下载地址，安装包大小 30.8 MB，需要 Android 4.0.3 及以上（API 15），内部版本号（versionCode）为 622，安装包架构为 通用包（未区分 CPU 架构），距上一个版本 6.2.4 相隔 30 天。
 
-> WeChat (Weixin) for Android 6.2.5 was released on 2015-08-28, this page lists 1 official Tencent download link, versionCode 620, built for universal (no ABI split), shipped 30 days after WeChat 6.2.4.
+> WeChat (Weixin) for Android 6.2.5 was released on 2015-08-28, this page lists 1 official Tencent download link, APK size 30.8 MB, requires Android 4.0.3 and up (API 15), versionCode 622, built for universal (no ABI split), shipped 30 days after WeChat 6.2.4.
 
 ## 微信 6.2.5 下载地址
 
-| # | 架构 | versionCode | 构建号 | 安装包文件名 | 下载 |
+| # | 架构 | 大小 | versionCode | 安装包文件名 | 下载 |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| 1 | 通用 | 620 | - | `weixin625android620.apk` | [直接下载](https://dldir1.qq.com/weixin/android/weixin625android620.apk) |
+| 1 | 通用 | 30.8 MB | 622 | `weixin625android620.apk` | [直接下载](https://dldir1.qq.com/weixin/android/weixin625android620.apk) |
 
 所有链接均指向腾讯官方域名（`dldir1.qq.com` / `dldir1v6.qq.com`），本仓库不做任何二次打包或转存。
 
@@ -20,7 +20,10 @@
 | 版本号 | **6.2.5** |
 | 平台 | Android |
 | 发布日期 | 2015-08-28 |
-| versionCode | 620 |
+| 安装包大小 | 30.8 MB |
+| 最低系统要求 | Android 4.0.3 及以上（API 15） |
+| 目标 API 等级 | API 22（Android 5.1） |
+| versionCode | 622 |
 | 应用包名 | `com.tencent.mm` |
 | CPU 架构 | 通用包（未区分 CPU 架构） |
 | 官方下载数 | 1 |
@@ -57,9 +60,9 @@
 
 ## Download WeChat 6.2.5 APK
 
-| # | ABI | versionCode | Build | APK file name | Download |
+| # | ABI | Size | versionCode | APK file name | Download |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| 1 | universal | 620 | - | `weixin625android620.apk` | [Download APK](https://dldir1.qq.com/weixin/android/weixin625android620.apk) |
+| 1 | universal | 30.8 MB | 622 | `weixin625android620.apk` | [Download APK](https://dldir1.qq.com/weixin/android/weixin625android620.apk) |
 
 All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`). Nothing is re-hosted, repacked or modified here.
 
@@ -71,7 +74,10 @@ All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`).
 | Version | **6.2.5** |
 | Platform | Android |
 | Release date | 2015-08-28 |
-| versionCode | 620 |
+| APK size | 30.8 MB |
+| Requires Android | Android 4.0.3 and up (API 15) |
+| Target API level | API 22 (Android 5.1) |
+| versionCode | 622 |
 | Package name | `com.tencent.mm` |
 | ABI | universal (no ABI split) |
 | Official downloads | 1 |

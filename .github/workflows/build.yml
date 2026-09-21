@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'version.json'
+      - 'apkmeta.json'
       - 'scripts/**'
       - '.github/workflows/build.yml'
   schedule:
@@ -31,6 +32,12 @@ jobs:
 
       - name: 从上游同步 version.json
         run: python scripts/sync.py
+
+      # 只抓 version.json 里新出现的链接，已抓过的走 apkmeta.json 缓存。
+      # 单个 APK 仅需 Range 下载 0.3-1.8MB，不下载完整安装包。
+      - name: 抓取新增 APK 的大小与系统要求
+        run: python scripts/apkmeta.py --workers 8
+        continue-on-error: true
 
       - name: 生成版本目录与静态站点
         run: python scripts/build.py

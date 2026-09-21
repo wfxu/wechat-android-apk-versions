@@ -1,14 +1,14 @@
 # 微信 8.0.43 安卓版 APK 下载 | WeChat 8.0.43 APK Download for Android
 
-> 微信（WeChat）Android 8.0.43 于 2023-11-06 发布，本页收录该版本 1 个腾讯官方下载地址，内部版本号（versionCode）为 2480，安装包架构为 arm64（64 位 ARM），距上一个版本 8.0.42 相隔 45 天。
+> 微信（WeChat）Android 8.0.43 于 2023-11-06 发布，本页收录该版本 1 个腾讯官方下载地址，安装包大小 252.2 MB，需要 Android 6.0 及以上（API 23），内部版本号（versionCode）为 2480，安装包架构为 arm64（64 位 ARM），距上一个版本 8.0.42 相隔 45 天。
 
-> WeChat (Weixin) for Android 8.0.43 was released on 2023-11-06, this page lists 1 official Tencent download link, versionCode 2480, built for arm64 (64-bit ARM), shipped 45 days after WeChat 8.0.42.
+> WeChat (Weixin) for Android 8.0.43 was released on 2023-11-06, this page lists 1 official Tencent download link, APK size 252.2 MB, requires Android 6.0 and up (API 23), versionCode 2480, built for arm64 (64-bit ARM), shipped 45 days after WeChat 8.0.42.
 
 ## 微信 8.0.43 下载地址
 
-| # | 架构 | versionCode | 构建号 | 安装包文件名 | 下载 |
+| # | 架构 | 大小 | versionCode | 安装包文件名 | 下载 |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| 1 | arm64 | 2480 | 0x28002b38 | `weixin8043android2480_0x28002b38_arm64_1.apk` | [直接下载](https://dldir1.qq.com/weixin/android/weixin8043android2480_0x28002b38_arm64_1.apk) |
+| 1 | arm64 | 252.2 MB | 2480 | `weixin8043android2480_0x28002b38_arm64_1.apk` | [直接下载](https://dldir1.qq.com/weixin/android/weixin8043android2480_0x28002b38_arm64_1.apk) |
 
 所有链接均指向腾讯官方域名（`dldir1.qq.com` / `dldir1v6.qq.com`），本仓库不做任何二次打包或转存。
 
@@ -20,6 +20,9 @@
 | 版本号 | **8.0.43** |
 | 平台 | Android |
 | 发布日期 | 2023-11-06 |
+| 安装包大小 | 252.2 MB |
+| 最低系统要求 | Android 6.0 及以上（API 23） |
+| 目标 API 等级 | API 29（Android 10） |
 | versionCode | 2480 |
 | 应用包名 | `com.tencent.mm` |
 | CPU 架构 | arm64（64 位 ARM） |
@@ -57,9 +60,9 @@
 
 ## Download WeChat 8.0.43 APK
 
-| # | ABI | versionCode | Build | APK file name | Download |
+| # | ABI | Size | versionCode | APK file name | Download |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| 1 | arm64 | 2480 | 0x28002b38 | `weixin8043android2480_0x28002b38_arm64_1.apk` | [Download APK](https://dldir1.qq.com/weixin/android/weixin8043android2480_0x28002b38_arm64_1.apk) |
+| 1 | arm64 | 252.2 MB | 2480 | `weixin8043android2480_0x28002b38_arm64_1.apk` | [Download APK](https://dldir1.qq.com/weixin/android/weixin8043android2480_0x28002b38_arm64_1.apk) |
 
 All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`). Nothing is re-hosted, repacked or modified here.
 
@@ -71,6 +74,9 @@ All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`).
 | Version | **8.0.43** |
 | Platform | Android |
 | Release date | 2023-11-06 |
+| APK size | 252.2 MB |
+| Requires Android | Android 6.0 and up (API 23) |
+| Target API level | API 29 (Android 10) |
 | versionCode | 2480 |
 | Package name | `com.tencent.mm` |
 | ABI | arm64 (64-bit ARM) |

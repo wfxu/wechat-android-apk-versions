@@ -1,14 +1,18 @@
 # 微信 7.0.10 安卓版 APK 下载 | WeChat 7.0.10 APK Download for Android
 
-> 微信（WeChat）Android 7.0.10 于 2019-12-26 发布，本页收录该版本 1 个腾讯官方下载地址，内部版本号（versionCode）为 1580，安装包架构为 通用包（未区分 CPU 架构），距上一个版本 7.0.9 相隔 28 天。
+> ⚠️ **注意**：腾讯替换过这个链接的内容。文件名标注为微信 7.0.10，但安装包内部记录的版本是 **7.0.11**，下载到的实际是后者。本页保留原始标注以便检索。
 
-> WeChat (Weixin) for Android 7.0.10 was released on 2019-12-26, this page lists 1 official Tencent download link, versionCode 1580, built for universal (no ABI split), shipped 28 days after WeChat 7.0.9.
+> ⚠️ **Note**: Tencent replaced the contents of this link. The file name says WeChat 7.0.10, but the APK itself reports version **7.0.11** — that is what you actually download.
+
+> 微信（WeChat）Android 7.0.10 于 2019-12-26 发布，本页收录该版本 1 个腾讯官方下载地址，安装包大小 131.9 MB，需要 Android 5.0 及以上（API 21），内部版本号（versionCode）为 1580，安装包架构为 通用包（未区分 CPU 架构），距上一个版本 7.0.9 相隔 28 天。
+
+> WeChat (Weixin) for Android 7.0.10 was released on 2019-12-26, this page lists 1 official Tencent download link, APK size 131.9 MB, requires Android 5.0 and up (API 21), versionCode 1580, built for universal (no ABI split), shipped 28 days after WeChat 7.0.9.
 
 ## 微信 7.0.10 下载地址
 
-| # | 架构 | versionCode | 构建号 | 安装包文件名 | 下载 |
+| # | 架构 | 大小 | versionCode | 安装包文件名 | 下载 |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| 1 | 通用 | 1580 | - | `weixin7010android1580.apk` | [直接下载](https://dldir1.qq.com/weixin/android/weixin7010android1580.apk) |
+| 1 | 通用 | 131.9 MB | 1580 | `weixin7010android1580.apk` | [直接下载](https://dldir1.qq.com/weixin/android/weixin7010android1580.apk) |
 
 所有链接均指向腾讯官方域名（`dldir1.qq.com` / `dldir1v6.qq.com`），本仓库不做任何二次打包或转存。
 
@@ -20,6 +24,9 @@
 | 版本号 | **7.0.10** |
 | 平台 | Android |
 | 发布日期 | 2019-12-26 |
+| 安装包大小 | 131.9 MB |
+| 最低系统要求 | Android 5.0 及以上（API 21） |
+| 目标 API 等级 | API 28（Android 9） |
 | versionCode | 1580 |
 | 应用包名 | `com.tencent.mm` |
 | CPU 架构 | 通用包（未区分 CPU 架构） |
@@ -57,9 +64,9 @@
 
 ## Download WeChat 7.0.10 APK
 
-| # | ABI | versionCode | Build | APK file name | Download |
+| # | ABI | Size | versionCode | APK file name | Download |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| 1 | universal | 1580 | - | `weixin7010android1580.apk` | [Download APK](https://dldir1.qq.com/weixin/android/weixin7010android1580.apk) |
+| 1 | universal | 131.9 MB | 1580 | `weixin7010android1580.apk` | [Download APK](https://dldir1.qq.com/weixin/android/weixin7010android1580.apk) |
 
 All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`). Nothing is re-hosted, repacked or modified here.
 
@@ -71,6 +78,9 @@ All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`).
 | Version | **7.0.10** |
 | Platform | Android |
 | Release date | 2019-12-26 |
+| APK size | 131.9 MB |
+| Requires Android | Android 5.0 and up (API 21) |
+| Target API level | API 28 (Android 9) |
 | versionCode | 1580 |
 | Package name | `com.tencent.mm` |
 | ABI | universal (no ABI split) |

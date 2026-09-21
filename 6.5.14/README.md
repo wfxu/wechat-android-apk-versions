@@ -6,9 +6,9 @@
 
 ## 微信 6.5.14 下载地址
 
-| # | 架构 | versionCode | 构建号 | 安装包文件名 | 下载 |
+| # | 架构 | 大小 | versionCode | 安装包文件名 | 下载 |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| 1 | 通用 | 1100 | - | `weixin6514android1100.apk` | [直接下载](https://dldir1.qq.com/weixin/android/weixin6514android1100.apk) |
+| 1 | 通用 | - | 1100 | `weixin6514android1100.apk` | 链接已失效 |
 
 所有链接均指向腾讯官方域名（`dldir1.qq.com` / `dldir1v6.qq.com`），本仓库不做任何二次打包或转存。
 
@@ -20,6 +20,9 @@
 | 版本号 | **6.5.14** |
 | 平台 | Android |
 | 发布日期 | 2017-09-04 |
+| 安装包大小 | - |
+| 最低系统要求 | - |
+| 目标 API 等级 | - |
 | versionCode | 1100 |
 | 应用包名 | `com.tencent.mm` |
 | CPU 架构 | 通用包（未区分 CPU 架构） |
@@ -57,9 +60,9 @@
 
 ## Download WeChat 6.5.14 APK
 
-| # | ABI | versionCode | Build | APK file name | Download |
+| # | ABI | Size | versionCode | APK file name | Download |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| 1 | universal | 1100 | - | `weixin6514android1100.apk` | [Download APK](https://dldir1.qq.com/weixin/android/weixin6514android1100.apk) |
+| 1 | universal | - | 1100 | `weixin6514android1100.apk` | Link dead |
 
 All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`). Nothing is re-hosted, repacked or modified here.
 
@@ -71,6 +74,9 @@ All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`).
 | Version | **6.5.14** |
 | Platform | Android |
 | Release date | 2017-09-04 |
+| APK size | - |
+| Requires Android | - |
+| Target API level | - |
 | versionCode | 1100 |
 | Package name | `com.tencent.mm` |
 | ABI | universal (no ABI split) |

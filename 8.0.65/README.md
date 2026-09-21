@@ -1,14 +1,14 @@
 # 微信 8.0.65 安卓版 APK 下载 | WeChat 8.0.65 APK Download for Android
 
-> 微信（WeChat）Android 8.0.65 于 2025-11-07 发布，本页收录该版本 1 个腾讯官方下载地址，内部版本号（versionCode）为 2960，安装包架构为 arm64（64 位 ARM），距上一个版本 8.0.64 相隔 39 天。
+> 微信（WeChat）Android 8.0.65 于 2025-11-07 发布，本页收录该版本 1 个腾讯官方下载地址，安装包大小 243.4 MB，需要 Android 7.0 及以上（API 24），内部版本号（versionCode）为 2960，安装包架构为 arm64（64 位 ARM），距上一个版本 8.0.64 相隔 39 天。
 
-> WeChat (Weixin) for Android 8.0.65 was released on 2025-11-07, this page lists 1 official Tencent download link, versionCode 2960, built for arm64 (64-bit ARM), shipped 39 days after WeChat 8.0.64.
+> WeChat (Weixin) for Android 8.0.65 was released on 2025-11-07, this page lists 1 official Tencent download link, APK size 243.4 MB, requires Android 7.0 and up (API 24), versionCode 2960, built for arm64 (64-bit ARM), shipped 39 days after WeChat 8.0.64.
 
 ## 微信 8.0.65 下载地址
 
-| # | 架构 | versionCode | 构建号 | 安装包文件名 | 下载 |
+| # | 架构 | 大小 | versionCode | 安装包文件名 | 下载 |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| 1 | arm64 | 2960 | 0x28004137 | `weixin8065android2960_0x28004137_arm64.apk` | [直接下载](https://dldir1v6.qq.com/weixin/android/weixin8065android2960_0x28004137_arm64.apk) |
+| 1 | arm64 | 243.4 MB | 2960 | `weixin8065android2960_0x28004137_arm64.apk` | [直接下载](https://dldir1v6.qq.com/weixin/android/weixin8065android2960_0x28004137_arm64.apk) |
 
 所有链接均指向腾讯官方域名（`dldir1.qq.com` / `dldir1v6.qq.com`），本仓库不做任何二次打包或转存。
 
@@ -20,6 +20,9 @@
 | 版本号 | **8.0.65** |
 | 平台 | Android |
 | 发布日期 | 2025-11-07 |
+| 安装包大小 | 243.4 MB |
+| 最低系统要求 | Android 7.0 及以上（API 24） |
+| 目标 API 等级 | API 34（Android 14） |
 | versionCode | 2960 |
 | 应用包名 | `com.tencent.mm` |
 | CPU 架构 | arm64（64 位 ARM） |
@@ -57,9 +60,9 @@
 
 ## Download WeChat 8.0.65 APK
 
-| # | ABI | versionCode | Build | APK file name | Download |
+| # | ABI | Size | versionCode | APK file name | Download |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| 1 | arm64 | 2960 | 0x28004137 | `weixin8065android2960_0x28004137_arm64.apk` | [Download APK](https://dldir1v6.qq.com/weixin/android/weixin8065android2960_0x28004137_arm64.apk) |
+| 1 | arm64 | 243.4 MB | 2960 | `weixin8065android2960_0x28004137_arm64.apk` | [Download APK](https://dldir1v6.qq.com/weixin/android/weixin8065android2960_0x28004137_arm64.apk) |
 
 All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`). Nothing is re-hosted, repacked or modified here.
 
@@ -71,6 +74,9 @@ All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`).
 | Version | **8.0.65** |
 | Platform | Android |
 | Release date | 2025-11-07 |
+| APK size | 243.4 MB |
+| Requires Android | Android 7.0 and up (API 24) |
+| Target API level | API 34 (Android 14) |
 | versionCode | 2960 |
 | Package name | `com.tencent.mm` |
 | ABI | arm64 (64-bit ARM) |
