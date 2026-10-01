@@ -1,20 +1,21 @@
 # 微信安卓版历史版本 APK 下载大全 | WeChat for Android APK Archive
 
-收录 **133 个微信 Android 历史版本**、共 172 个腾讯官方下载地址，版本跨度 2014-06-27（微信 5.3.1）至 2026-09-09（微信 8.0.78）。**每个版本都有独立页面**，点击版本号即可查看该版本的下载地址、versionCode、发布日期与安装说明。
+收录 **134 个微信 Android 历史版本**、共 173 个腾讯官方下载地址，版本跨度 2014-06-27（微信 5.3.1）至 2026-09-30（微信 8.0.79）。**每个版本都有独立页面**，点击版本号即可查看该版本的下载地址、versionCode、发布日期与安装说明。
 
-**133 archived WeChat Android versions**, 172 official Tencent download links, spanning WeChat 5.3.1 (2014-06-27) to WeChat 8.0.78 (2026-09-09). Every version has its own page with download links, versionCode, release date and install notes.
+**134 archived WeChat Android versions**, 173 official Tencent download links, spanning WeChat 5.3.1 (2014-06-27) to WeChat 8.0.79 (2026-09-30). Every version has its own page with download links, versionCode, release date and install notes.
 
 🌐 在线版 / Browse online：<https://wfxu.github.io/wechat-android-apk-versions/>
 
 ## 最新版本 / Latest version
 
-当前最新为 **[微信 8.0.78](8.0.78/)**，发布于 2026-09-09。
-The newest archived build is **[WeChat 8.0.78](8.0.78/)**, released 2026-09-09.
+当前最新为 **[微信 8.0.79](8.0.79/)**，发布于 2026-09-30。
+The newest archived build is **[WeChat 8.0.79](8.0.79/)**, released 2026-09-30.
 
 ## 全部版本 / All versions
 
 | 版本号 Version | 发布日期 Release date | 大小 Size | 最低系统 Requires | versionCode | 独立页面 Page |
 | :-- | :-- | :-- | :-- | :-- | :-- |
+| 微信 8.0.79 / WeChat 8.0.79 | 2026-09-30 | 272.1 MB | Android 7.0+ | 3200 | [微信 8.0.79 下载 / Download WeChat 8.0.79 APK](8.0.79/) |
 | 微信 8.0.78 / WeChat 8.0.78 | 2026-09-09 | 267.3 MB – 267.6 MB | Android 7.0+ | 3180 | [微信 8.0.78 下载 / Download WeChat 8.0.78 APK](8.0.78/) |
 | 微信 8.0.77 / WeChat 8.0.77 | 2026-08-21 | 265.7 MB – 265.7 MB | Android 7.0+ | 3160 | [微信 8.0.77 下载 / Download WeChat 8.0.77 APK](8.0.77/) |
 | 微信 8.0.76 / WeChat 8.0.76 | 2026-07-08 | 253.8 MB – 253.8 MB | Android 7.0+ | 3140、3141 | [微信 8.0.76 下载 / Download WeChat 8.0.76 APK](8.0.76/) |
@@ -167,9 +168,9 @@ The newest archived build is **[WeChat 8.0.78](8.0.78/)**, released 2026-09-09.
 version.json                原始数据，唯一数据源 / source of truth
 scripts/sync.py             每日同步上游 / pulls upstream data daily
 scripts/build.py            生成器 / generator
-8.0.78/README.md              独立版本页 / one page per version
-8.0.77/README.md
-...                         共 133 个版本目录 / version directories
+8.0.79/README.md              独立版本页 / one page per version
+8.0.78/README.md
+...                         共 134 个版本目录 / version directories
 docs/                       GitHub Pages 静态站 + sitemap.xml
 ```
 

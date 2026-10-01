@@ -29,7 +29,7 @@
 | 应用包名 | `com.tencent.mm` |
 | CPU 架构 | arm64（64 位 ARM） |
 | 官方下载数 | 3 |
-| 版本序号 | 133 个历史版本中的第 24 新 |
+| 版本序号 | 134 个历史版本中的第 25 新 |
 | 距上一版本 | 74 天 |
 
 ## 相邻版本
@@ -39,7 +39,7 @@
 
 ## 关于微信 8.0.51
 
-微信 8.0.51 是腾讯于 2024-09-14 推出的 Android 客户端版本，在本仓库收录的 133 个历史版本中排在第 24 位。
+微信 8.0.51 是腾讯于 2024-09-14 推出的 Android 客户端版本，在本仓库收录的 134 个历史版本中排在第 25 位。
 它与前一版本微信 8.0.50（2024-07-02）相隔 74 天。
 需要该版本的用户通常是为了适配旧机型、回退新版改动，或用于兼容性测试。各版本的功能更新说明请以 [微信官方更新日志](https://weixin.qq.com/updates) 为准。
 
@@ -85,7 +85,7 @@ All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`).
 | Package name | `com.tencent.mm` |
 | ABI | arm64 (64-bit ARM) |
 | Official downloads | 3 |
-| Position in history | #24 of 133 archived versions |
+| Position in history | #25 of 134 archived versions |
 | Days since previous release | 74 |
 
 ## Nearby versions
@@ -95,7 +95,7 @@ All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`).
 
 ## About WeChat 8.0.51
 
-WeChat 8.0.51 is the Android client Tencent released on 2024-09-14. It is #24 of the 133 versions archived here.
+WeChat 8.0.51 is the Android client Tencent released on 2024-09-14. It is #25 of the 134 versions archived here.
 It arrived 74 days after WeChat 8.0.50 (2024-07-02).
 People usually look for this specific old version to support older devices, to roll back a change introduced in a newer release, or for compatibility testing. For the feature changelog, refer to [Tencent's official release notes](https://weixin.qq.com/updates).
 
@@ -116,4 +116,4 @@ People usually look for this specific old version to support older devices, to r
 
 ---
 
-[← 返回全部 133 个版本 / All 133 WeChat Android versions](../)　|　[在线浏览 / View online](https://wfxu.github.io/wechat-android-apk-versions/8.0.51/)
+[← 返回全部 134 个版本 / All 134 WeChat Android versions](../)　|　[在线浏览 / View online](https://wfxu.github.io/wechat-android-apk-versions/8.0.51/)

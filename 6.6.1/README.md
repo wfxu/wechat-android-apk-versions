@@ -31,7 +31,7 @@
 | 应用包名 | `com.tencent.mm` |
 | CPU 架构 | 通用包（未区分 CPU 架构） |
 | 官方下载数 | 1 |
-| 版本序号 | 133 个历史版本中的第 94 新 |
+| 版本序号 | 134 个历史版本中的第 95 新 |
 | 距上一版本 | 7 天 |
 
 ## 相邻版本
@@ -41,7 +41,7 @@
 
 ## 关于微信 6.6.1
 
-微信 6.6.1 是腾讯于 2017-12-29 推出的 Android 客户端版本，在本仓库收录的 133 个历史版本中排在第 94 位。
+微信 6.6.1 是腾讯于 2017-12-29 推出的 Android 客户端版本，在本仓库收录的 134 个历史版本中排在第 95 位。
 它与前一版本微信 6.6（2017-12-22）相隔 7 天。
 需要该版本的用户通常是为了适配旧机型、回退新版改动，或用于兼容性测试。各版本的功能更新说明请以 [微信官方更新日志](https://weixin.qq.com/updates) 为准。
 
@@ -85,7 +85,7 @@ All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`).
 | Package name | `com.tencent.mm` |
 | ABI | universal (no ABI split) |
 | Official downloads | 1 |
-| Position in history | #94 of 133 archived versions |
+| Position in history | #95 of 134 archived versions |
 | Days since previous release | 7 |
 
 ## Nearby versions
@@ -95,7 +95,7 @@ All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`).
 
 ## About WeChat 6.6.1
 
-WeChat 6.6.1 is the Android client Tencent released on 2017-12-29. It is #94 of the 133 versions archived here.
+WeChat 6.6.1 is the Android client Tencent released on 2017-12-29. It is #95 of the 134 versions archived here.
 It arrived 7 days after WeChat 6.6 (2017-12-22).
 People usually look for this specific old version to support older devices, to roll back a change introduced in a newer release, or for compatibility testing. For the feature changelog, refer to [Tencent's official release notes](https://weixin.qq.com/updates).
 
@@ -116,4 +116,4 @@ People usually look for this specific old version to support older devices, to r
 
 ---
 
-[← 返回全部 133 个版本 / All 133 WeChat Android versions](../)　|　[在线浏览 / View online](https://wfxu.github.io/wechat-android-apk-versions/6.6.1/)
+[← 返回全部 134 个版本 / All 134 WeChat Android versions](../)　|　[在线浏览 / View online](https://wfxu.github.io/wechat-android-apk-versions/6.6.1/)

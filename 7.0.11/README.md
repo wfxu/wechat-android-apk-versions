@@ -27,7 +27,7 @@
 | 应用包名 | `com.tencent.mm` |
 | CPU 架构 | 通用包（未区分 CPU 架构） |
 | 官方下载数 | 1 |
-| 版本序号 | 133 个历史版本中的第 77 新 |
+| 版本序号 | 134 个历史版本中的第 78 新 |
 | 距上一版本 | 59 天 |
 
 ## 相邻版本
@@ -37,7 +37,7 @@
 
 ## 关于微信 7.0.11
 
-微信 7.0.11 是腾讯于 2020-02-23 推出的 Android 客户端版本，在本仓库收录的 133 个历史版本中排在第 77 位。
+微信 7.0.11 是腾讯于 2020-02-23 推出的 Android 客户端版本，在本仓库收录的 134 个历史版本中排在第 78 位。
 它与前一版本微信 7.0.10（2019-12-26）相隔 59 天。
 需要该版本的用户通常是为了适配旧机型、回退新版改动，或用于兼容性测试。各版本的功能更新说明请以 [微信官方更新日志](https://weixin.qq.com/updates) 为准。
 
@@ -81,7 +81,7 @@ All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`).
 | Package name | `com.tencent.mm` |
 | ABI | universal (no ABI split) |
 | Official downloads | 1 |
-| Position in history | #77 of 133 archived versions |
+| Position in history | #78 of 134 archived versions |
 | Days since previous release | 59 |
 
 ## Nearby versions
@@ -91,7 +91,7 @@ All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`).
 
 ## About WeChat 7.0.11
 
-WeChat 7.0.11 is the Android client Tencent released on 2020-02-23. It is #77 of the 133 versions archived here.
+WeChat 7.0.11 is the Android client Tencent released on 2020-02-23. It is #78 of the 134 versions archived here.
 It arrived 59 days after WeChat 7.0.10 (2019-12-26).
 People usually look for this specific old version to support older devices, to roll back a change introduced in a newer release, or for compatibility testing. For the feature changelog, refer to [Tencent's official release notes](https://weixin.qq.com/updates).
 
@@ -112,4 +112,4 @@ People usually look for this specific old version to support older devices, to r
 
 ---
 
-[← 返回全部 133 个版本 / All 133 WeChat Android versions](../)　|　[在线浏览 / View online](https://wfxu.github.io/wechat-android-apk-versions/7.0.11/)
+[← 返回全部 134 个版本 / All 134 WeChat Android versions](../)　|　[在线浏览 / View online](https://wfxu.github.io/wechat-android-apk-versions/7.0.11/)
