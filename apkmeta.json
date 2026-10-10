@@ -336,7 +336,7 @@
   "version_name": "6.5.13"
  },
  "https://dldir1.qq.com/weixin/android/weixin6514android1100.apk": {
-  "checked": "2026-10-09",
+  "checked": "2026-10-10",
   "error": "HEAD 失败或无 Content-Length",
   "last_modified": null,
   "size": null,
@@ -2068,6 +2068,18 @@
   "status": 200,
   "target_sdk": 34,
   "url": "https://dldir1v6.qq.com/weixin/android/weixin8079android3200_0x28004f30_arm64.apk",
+  "version_code": 3200,
+  "version_name": "8.0.79"
+ },
+ "https://dldir1v6.qq.com/weixin/android/weixin8079android3200_0x28004f30_arm64_1.apk": {
+  "android_release": "7.0",
+  "checked": "2026-10-10",
+  "last_modified": "Thu, 08 Oct 2026 14:10:17 GMT",
+  "min_sdk": 24,
+  "size": 285284760,
+  "status": 200,
+  "target_sdk": 34,
+  "url": "https://dldir1v6.qq.com/weixin/android/weixin8079android3200_0x28004f30_arm64_1.apk",
   "version_code": 3200,
   "version_name": "8.0.79"
  }

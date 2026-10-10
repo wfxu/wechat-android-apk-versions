@@ -1,14 +1,15 @@
 # 微信 8.0.79 安卓版 APK 下载 | WeChat 8.0.79 APK Download for Android
 
-> 微信（WeChat）Android 8.0.79 于 2026-09-30 发布，本页收录该版本 1 个腾讯官方下载地址，安装包大小 272.1 MB，需要 Android 7.0 及以上（API 24），内部版本号（versionCode）为 3200，安装包架构为 arm64（64 位 ARM），距上一个版本 8.0.78 相隔 21 天。
+> 微信（WeChat）Android 8.0.79 于 2026-09-30 发布，本页收录该版本 2 个腾讯官方下载地址，安装包大小 272.1 MB – 272.1 MB，需要 Android 7.0 及以上（API 24），内部版本号（versionCode）为 3200，安装包架构为 arm64（64 位 ARM），距上一个版本 8.0.78 相隔 21 天。
 
-> WeChat (Weixin) for Android 8.0.79 was released on 2026-09-30, this page lists 1 official Tencent download link, APK size 272.1 MB, requires Android 7.0 and up (API 24), versionCode 3200, built for arm64 (64-bit ARM), shipped 21 days after WeChat 8.0.78.
+> WeChat (Weixin) for Android 8.0.79 was released on 2026-09-30, this page lists 2 official Tencent download links, APK size 272.1 MB – 272.1 MB, requires Android 7.0 and up (API 24), versionCode 3200, built for arm64 (64-bit ARM), shipped 21 days after WeChat 8.0.78.
 
 ## 微信 8.0.79 下载地址
 
 | # | 架构 | 大小 | versionCode | 安装包文件名 | 下载 |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| 1 | arm64 | 272.1 MB | 3200 | `weixin8079android3200_0x28004f30_arm64.apk` | [直接下载](https://dldir1v6.qq.com/weixin/android/weixin8079android3200_0x28004f30_arm64.apk) |
+| 1 | arm64 | 272.1 MB | 3200 | `weixin8079android3200_0x28004f30_arm64_1.apk` | [直接下载](https://dldir1v6.qq.com/weixin/android/weixin8079android3200_0x28004f30_arm64_1.apk) |
+| 2 | arm64 | 272.1 MB | 3200 | `weixin8079android3200_0x28004f30_arm64.apk` | [直接下载](https://dldir1v6.qq.com/weixin/android/weixin8079android3200_0x28004f30_arm64.apk) |
 
 所有链接均指向腾讯官方域名（`dldir1.qq.com` / `dldir1v6.qq.com`），本仓库不做任何二次打包或转存。
 
@@ -20,13 +21,13 @@
 | 版本号 | **8.0.79** |
 | 平台 | Android |
 | 发布日期 | 2026-09-30 |
-| 安装包大小 | 272.1 MB |
+| 安装包大小 | 272.1 MB – 272.1 MB |
 | 最低系统要求 | Android 7.0 及以上（API 24） |
 | 目标 API 等级 | API 34（Android 14） |
 | versionCode | 3200 |
 | 应用包名 | `com.tencent.mm` |
 | CPU 架构 | arm64（64 位 ARM） |
-| 官方下载数 | 1 |
+| 官方下载数 | 2 |
 | 版本序号 | 134 个历史版本中的第 1 新 |
 | 距上一版本 | 21 天 |
 
@@ -43,7 +44,7 @@
 
 ## 安装说明
 
-1. 点击上表中的链接下载 `weixin8079android3200_0x28004f30_arm64.apk`。
+1. 点击上表中的链接下载 `weixin8079android3200_0x28004f30_arm64_1.apk`。
 2. 在系统设置中允许「安装未知来源应用」。
 3. 若设备已安装更高版本的微信，需先卸载再安装微信 8.0.79；Android 不允许降级覆盖安装。
 4. 卸载会清除本地聊天记录，降级前请先在微信内完成聊天记录备份。
@@ -62,7 +63,8 @@
 
 | # | ABI | Size | versionCode | APK file name | Download |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| 1 | arm64 | 272.1 MB | 3200 | `weixin8079android3200_0x28004f30_arm64.apk` | [Download APK](https://dldir1v6.qq.com/weixin/android/weixin8079android3200_0x28004f30_arm64.apk) |
+| 1 | arm64 | 272.1 MB | 3200 | `weixin8079android3200_0x28004f30_arm64_1.apk` | [Download APK](https://dldir1v6.qq.com/weixin/android/weixin8079android3200_0x28004f30_arm64_1.apk) |
+| 2 | arm64 | 272.1 MB | 3200 | `weixin8079android3200_0x28004f30_arm64.apk` | [Download APK](https://dldir1v6.qq.com/weixin/android/weixin8079android3200_0x28004f30_arm64.apk) |
 
 All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`). Nothing is re-hosted, repacked or modified here.
 
@@ -74,13 +76,13 @@ All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`).
 | Version | **8.0.79** |
 | Platform | Android |
 | Release date | 2026-09-30 |
-| APK size | 272.1 MB |
+| APK size | 272.1 MB – 272.1 MB |
 | Requires Android | Android 7.0 and up (API 24) |
 | Target API level | API 34 (Android 14) |
 | versionCode | 3200 |
 | Package name | `com.tencent.mm` |
 | ABI | arm64 (64-bit ARM) |
-| Official downloads | 1 |
+| Official downloads | 2 |
 | Position in history | #1 of 134 archived versions |
 | Days since previous release | 21 |
 
@@ -97,7 +99,7 @@ People usually look for this specific old version to support older devices, to r
 
 ## How to install WeChat 8.0.79 APK
 
-1. Download `weixin8079android3200_0x28004f30_arm64.apk` from the table above.
+1. Download `weixin8079android3200_0x28004f30_arm64_1.apk` from the table above.
 2. Allow installation from unknown sources in Android settings.
 3. If a newer WeChat build is already installed, uninstall it first — Android does not allow downgrading over an existing install.
 4. Uninstalling clears local chat history. Back it up inside WeChat before downgrading to 8.0.79.
