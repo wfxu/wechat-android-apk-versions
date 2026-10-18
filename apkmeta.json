@@ -336,11 +336,11 @@
   "version_name": "6.5.13"
  },
  "https://dldir1.qq.com/weixin/android/weixin6514android1100.apk": {
-  "checked": "2026-10-17",
+  "checked": "2026-10-18",
   "error": "HEAD 失败或无 Content-Length",
   "last_modified": null,
   "size": null,
-  "status": 404,
+  "status": 0,
   "url": "https://dldir1.qq.com/weixin/android/weixin6514android1100.apk"
  },
  "https://dldir1.qq.com/weixin/android/weixin6516android1120.apk": {
