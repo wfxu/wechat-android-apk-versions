@@ -8,7 +8,7 @@
 
 | # | 架构 | 大小 | versionCode | 安装包文件名 | 下载 |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| 1 | 通用 | - | 1100 | `weixin6514android1100.apk` | [直接下载](https://dldir1.qq.com/weixin/android/weixin6514android1100.apk) |
+| 1 | 通用 | - | 1100 | `weixin6514android1100.apk` | 链接已失效 |
 
 所有链接均指向腾讯官方域名（`dldir1.qq.com` / `dldir1v6.qq.com`），本仓库不做任何二次打包或转存。
 
@@ -62,7 +62,7 @@
 
 | # | ABI | Size | versionCode | APK file name | Download |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| 1 | universal | - | 1100 | `weixin6514android1100.apk` | [Download APK](https://dldir1.qq.com/weixin/android/weixin6514android1100.apk) |
+| 1 | universal | - | 1100 | `weixin6514android1100.apk` | Link dead |
 
 All links point to Tencent's official CDN (`dldir1.qq.com` / `dldir1v6.qq.com`). Nothing is re-hosted, repacked or modified here.
 
