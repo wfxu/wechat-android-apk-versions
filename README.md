@@ -1,8 +1,8 @@
 # 微信安卓版历史版本 APK 下载大全 | WeChat for Android APK Archive
 
-收录 **135 个微信 Android 历史版本**、共 175 个腾讯官方下载地址，版本跨度 2014-06-27（微信 5.3.1）至 2026-10-28（微信 8.0.80）。**每个版本都有独立页面**，点击版本号即可查看该版本的下载地址、versionCode、发布日期与安装说明。
+收录 **135 个微信 Android 历史版本**、共 176 个腾讯官方下载地址，版本跨度 2014-06-27（微信 5.3.1）至 2026-10-28（微信 8.0.80）。**每个版本都有独立页面**，点击版本号即可查看该版本的下载地址、versionCode、发布日期与安装说明。
 
-**135 archived WeChat Android versions**, 175 official Tencent download links, spanning WeChat 5.3.1 (2014-06-27) to WeChat 8.0.80 (2026-10-28). Every version has its own page with download links, versionCode, release date and install notes.
+**135 archived WeChat Android versions**, 176 official Tencent download links, spanning WeChat 5.3.1 (2014-06-27) to WeChat 8.0.80 (2026-10-28). Every version has its own page with download links, versionCode, release date and install notes.
 
 🌐 在线版 / Browse online：<https://wfxu.github.io/wechat-android-apk-versions/>
 
@@ -15,7 +15,7 @@ The newest archived build is **[WeChat 8.0.80](8.0.80/)**, released 2026-10-28.
 
 | 版本号 Version | 发布日期 Release date | 大小 Size | 最低系统 Requires | versionCode | 独立页面 Page |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| 微信 8.0.80 / WeChat 8.0.80 | 2026-10-28 | 272.6 MB | Android 7.0+ | 3220 | [微信 8.0.80 下载 / Download WeChat 8.0.80 APK](8.0.80/) |
+| 微信 8.0.80 / WeChat 8.0.80 | 2026-10-28 | 272.6 MB – 273.1 MB | Android 7.0+ | 3220 | [微信 8.0.80 下载 / Download WeChat 8.0.80 APK](8.0.80/) |
 | 微信 8.0.79 / WeChat 8.0.79 | 2026-09-30 | 272.1 MB – 272.1 MB | Android 7.0+ | 3200 | [微信 8.0.79 下载 / Download WeChat 8.0.79 APK](8.0.79/) |
 | 微信 8.0.78 / WeChat 8.0.78 | 2026-09-09 | 267.3 MB – 267.6 MB | Android 7.0+ | 3180 | [微信 8.0.78 下载 / Download WeChat 8.0.78 APK](8.0.78/) |
 | 微信 8.0.77 / WeChat 8.0.77 | 2026-08-21 | 265.7 MB – 265.7 MB | Android 7.0+ | 3160 | [微信 8.0.77 下载 / Download WeChat 8.0.77 APK](8.0.77/) |
